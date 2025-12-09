@@ -1,4 +1,13 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765285674
+::res://::1765288513
 icon.svg::CompressedTexture2D::978719341439678647::1765285274::1765285675::1::::<><><>0<>0<>7173815a4e1f8a318a64a29e684d2b69<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1765285408::0::1::::<><><>0<>0<><>::
+main.tscn::PackedScene::5693815955876668973::1765287633::0::1::::<><><>0<>0<><>::uid://bs72ogkvdd7d6::::res://addons/proto_controller/proto_controller.tscn
+::res://addons/::1765287577
+::res://addons/proto_controller/::1765287577
+proto_controller.gd::GDScript::4346621539400993354::1765287577::0::1::::<>CharacterBody3D<><>0<>0<><>::
+proto_controller.tscn::PackedScene::3717544648773412845::1765287577::0::1::::<><><>0<>0<><>::res://addons/proto_controller/proto_controller.gd
+::res://models/::1765288818
+chest_gold.glb::PackedScene::5058384469880784011::1765288547::1765288547::1::::<><><>0<>0<>f4b83e49022e5b1f8c0778bf2d948b00<>res://.godot/imported/chest_gold.glb-a717046e63b48503ebe1cb55abe5035c.scn::
+chest_texture.png::CompressedTexture2D::1126777099804496775::1765288547::1765288893::1::::<><><>0<>0<>1abc967a98e39afea7a2d8ecd89dfd11<>res://.godot/imported/chest_texture.png-8135f5d17634ecf172b899581dd98767.s3tc.ctex::
+standard_material_chest.tres::StandardMaterial3D::4958376468368295214::1765288818::0::1::::<><><>0<>0<><>::
