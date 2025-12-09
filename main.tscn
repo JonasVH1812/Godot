@@ -1,0 +1,56 @@
+[gd_scene load_steps=5 format=3 uid="uid://cneek1mc0qxpd"]
+
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_ig7tw"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7dm0k"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_ig7tw"]
+sky_material = SubResource("ProceduralSkyMaterial_7dm0k")
+
+[sub_resource type="Environment" id="Environment_0xm2m"]
+background_mode = 2
+sky = SubResource("Sky_ig7tw")
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="main" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_0xm2m")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(3.4800003, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 1.5, 0)
+size = Vector3(4, 4, 1)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="CSGCombiner3D/CSGBox3D"]
+transform = Transform3D(-1.3769085e-07, -4.371138e-08, -0.39999992, -3.1499991, 1.910685e-15, 1.748455e-08, 0, 0.9999998, -1.748455e-08, 0, -1.9999999, 0)
+operation = 2
+radius = 1.0
+sides = 32
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(45.32924, 0, 0, 0, 1, 0, 0, 0, 36.993, 1.5641046, -1, 0.0021295547)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(-1.5211563e-07, 0, 0.99999994, 0, 0.99999994, 0, -3.48, 0, -4.3711385e-08, 8.5, 1.5, 7)
+size = Vector3(4, 4, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(-1.5211563e-07, 0, 0.99999994, 0, 0.99999994, 0, -3.48, 0, -4.3711385e-08, -5.5, 1.5, 7)
+size = Vector3(4, 4, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(3.4800003, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 1.5, 14)
+size = Vector3(4, 4, 1)
+
+[node name="ProtoController" parent="." instance=ExtResource("1_ig7tw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 8)
