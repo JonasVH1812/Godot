@@ -2,10 +2,10 @@
 
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://bl17lpr87ahx1" path="res://scenes/tree.tscn" id="1_lquwl"]
+[ext_resource type="PackedScene" uid="uid://ceck4ajm1frnf" path="res://models/chest_gold.glb" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://bwjv6oruukmn2" path="res://scripts/tree.gd" id="2_7mycd"]
-[ext_resource type="PackedScene" uid="uid://l1r7o4pf05ei" path="res://scenes/tree_log.tscn" id="3_272bh"]
+[ext_resource type="PackedScene" uid="uid://v8rk6kpx3pjx" path="res://models/barrel.glb" id="3_h2yge"]
 [ext_resource type="PackedScene" uid="uid://ch3n6odsoymoa" path="res://scenes/chest.tscn" id="4_1bvp3"]
-[ext_resource type="AudioStream" uid="uid://dcelup8qxyhr" path="res://sfx/chopping-wood-96709.mp3" id="4_5vw27"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7dm0k"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -60,47 +60,18 @@ size = Vector3(4, 4, 1)
 [node name="Tree" parent="CSGCombiner3D" instance=ExtResource("1_lquwl")]
 transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, -7, 0, -10)
 script = ExtResource("2_7mycd")
-tree_log = ExtResource("3_272bh")
-hit_sound = ExtResource("4_5vw27")
 
-[node name="Tree2" parent="CSGCombiner3D" instance=ExtResource("1_lquwl")]
-transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, -15, 0, -4)
-script = ExtResource("2_7mycd")
-tree_log = ExtResource("3_272bh")
-hit_sound = ExtResource("4_5vw27")
-
-[node name="Tree7" parent="CSGCombiner3D" instance=ExtResource("1_lquwl")]
-transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, -12, 0, 5)
-script = ExtResource("2_7mycd")
-tree_log = ExtResource("3_272bh")
-hit_sound = ExtResource("4_5vw27")
-
-[node name="Tree3" parent="CSGCombiner3D" instance=ExtResource("1_lquwl")]
-transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, 1, 0, -8)
-script = ExtResource("2_7mycd")
-tree_log = ExtResource("3_272bh")
-hit_sound = ExtResource("4_5vw27")
-
-[node name="Tree4" parent="CSGCombiner3D" instance=ExtResource("1_lquwl")]
-transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, 8, 0, -11)
-script = ExtResource("2_7mycd")
-tree_log = ExtResource("3_272bh")
-hit_sound = ExtResource("4_5vw27")
-
-[node name="Tree5" parent="CSGCombiner3D" instance=ExtResource("1_lquwl")]
-transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, 14, 0, -6)
-script = ExtResource("2_7mycd")
-tree_log = ExtResource("3_272bh")
-hit_sound = ExtResource("4_5vw27")
-
-[node name="Tree6" parent="CSGCombiner3D" instance=ExtResource("1_lquwl")]
-transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, 15, 0, 2)
-script = ExtResource("2_7mycd")
-tree_log = ExtResource("3_272bh")
-hit_sound = ExtResource("4_5vw27")
-
-[node name="ProtoController" parent="." groups=["player"] instance=ExtResource("1_ig7tw")]
+[node name="ProtoController" parent="." instance=ExtResource("1_ig7tw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 8)
 
+[node name="chest_gold2" parent="." instance=ExtResource("2_0xm2m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5318198, 5)
+
+[node name="chest_gold2" parent="chest_gold2" instance=ExtResource("2_0xm2m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.0047416687, -1)
+
+[node name="barrel" parent="." instance=ExtResource("3_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, -0.6065501, 4)
+
 [node name="chest" parent="." instance=ExtResource("4_1bvp3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3591733, -0.5000007, 1.7107654)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3591733, -0.5000007, 4.7107654)

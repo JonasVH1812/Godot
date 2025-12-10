@@ -1,0 +1,39 @@
+[gd_scene load_steps=6 format=3 uid="uid://l1r7o4pf05ei"]
+
+[ext_resource type="Material" uid="uid://sdmv4va8lc8a" path="res://models/tree.tres" id="1_a202f"]
+[ext_resource type="Script" uid="uid://4sn45wsdhesp" path="res://scripts/tree_log.gd" id="1_noarx"]
+[ext_resource type="Material" uid="uid://nha3dendv3iy" path="res://models/TreeLeafsMaterial.tres" id="2_6mxbw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_noarx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j4a3d"]
+
+[node name="tree_log" type="Node3D"]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+script = ExtResource("1_noarx")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+transform = Transform3D(0.48, 0, 0, 0, 0.48, 0, 0, 0, 0.48, 0, 0, 0)
+shape = SubResource("BoxShape3D_noarx")
+
+[node name="CSGBox3D22" type="CSGBox3D" parent="RigidBody3D/CollisionShape3D"]
+transform = Transform3D(-1.3009408, -3.8140774, -0.49512094, 3.7685463, -1.3288497, 0.9040684, -1.0245532, -0.18360406, 3.9305246, 1.789854, -16.75502, -2.3776166)
+size = Vector3(1, 0.42016602, 1)
+material = ExtResource("2_6mxbw")
+
+[node name="Area3D" type="Area3D" parent="RigidBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D/Area3D"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+shape = SubResource("BoxShape3D_j4a3d")
+
+[node name="Label3D" type="Label3D" parent="RigidBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5264342, 0)
+text = "Press E to pick up"
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="RigidBody3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="RigidBody3D/CSGCombiner3D"]
+size = Vector3(0.5, 0.5, 0.5)
+material = ExtResource("1_a202f")

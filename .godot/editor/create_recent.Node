@@ -1,10 +1,12 @@
-Area3D
-AnimationPlayer
 CollisionShape3D
+Area3D
+Label3D      - Matches the "text" keyword.
+RigidBody3D
+CSGBox3D
+CSGCombiner3D
+AnimationPlayer
 CollisionPolygon3D
 StaticBody3D
-CSGCombiner3D
-CSGBox3D
 DirectionalLight3D      - Matches the "sun" keyword.
 WorldEnvironment
 Camera3D

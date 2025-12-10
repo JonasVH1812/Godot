@@ -32,12 +32,19 @@ extends CharacterBody3D
 # Chopping cooldown variables
 var chop_cooldown: float = 3.0  # seconds
 var can_chop: bool = true
-
+@export var tree_log_scene: PackedScene
+@export var log_pickup_sound: AudioStream  # Drag your log pickup .wav/.ogg here
 var mouse_captured : bool = false
 var look_rotation : Vector2 = Vector2.ZERO
 var move_speed : float = 0.0
 var freeflying : bool = false
 var mouse_was_pressed : bool = false
+var logs = 0
+
+func add_log():
+	logs += 1
+	print("Logs:", logs)
+
 
 func _ready() -> void:
 	check_input_mappings()
