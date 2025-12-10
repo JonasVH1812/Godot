@@ -1,5 +1,5 @@
-CSGBox3D
 CSGCombiner3D
+CSGBox3D
 CollisionShape3D
 StaticBody3D
 DirectionalLight3D      - Matches the "sun" keyword.

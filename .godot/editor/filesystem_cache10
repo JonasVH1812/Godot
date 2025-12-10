@@ -7,11 +7,15 @@ README.md::TextFile::-1::1765285408::0::1::::<><><>0<>0<><>::
 ::res://addons/proto_controller/::1765287577
 proto_controller.gd::GDScript::4346621539400993354::1765287577::0::1::::<>CharacterBody3D<><>0<>0<><>::
 proto_controller.tscn::PackedScene::3717544648773412845::1765287577::0::1::::<><><>0<>0<><>::res://addons/proto_controller/proto_controller.gd
-::res://models/::1765309964
+::res://models/::1765351261
 barrel.glb::PackedScene::1543141873484015413::1765309957::1765309964::1::::<><><>0<>0<>a225e540385952c7b2fc07894c1705cd<>res://.godot/imported/barrel.glb-87478f161d9ee0805299313bae4ec454.scn::uid://c71y78r0up7mk::::res://models/barrel_texture.png
 barrel_texture.png::CompressedTexture2D::7074074299335613498::1765309957::1765309964::1::::<><><>0<>0<>478e854bf0639745d1fc47de899e199a<>res://.godot/imported/barrel_texture.png-9bf1af84b5aca89ec69942c107e1c803.s3tc.ctex::
 chest_gold.glb::PackedScene::5058384469880784011::1765288547::1765288968::1::::<><><>0<>0<>5c407f22ae3ed68ce90d15bc995a5347<>res://.godot/imported/chest_gold.glb-a717046e63b48503ebe1cb55abe5035c.scn::uid://ccv40a28r3oqg::::res://models/standard_material_chest.tres
 chest_texture.png::CompressedTexture2D::1126777099804496775::1765288547::1765288893::1::::<><><>0<>0<>1abc967a98e39afea7a2d8ecd89dfd11<>res://.godot/imported/chest_texture.png-8135f5d17634ecf172b899581dd98767.s3tc.ctex::
+leafs2.jpeg::CompressedTexture2D::5570180755670882334::1765351261::1765351268::1::::<><><>0<>0<>bfa14b22f9d274a2835dedd4ac038376<>res://.godot/imported/leafs2.jpeg-8b43e2661ee741d21533f26217c9e0b2.s3tc.ctex::
+leafs.jpeg::CompressedTexture2D::691625177587080002::1765351199::1765351209::1::::<><><>0<>0<>f3ed24b46f80f0e0f133ab73cb98911c<>res://.godot/imported/leafs.jpeg-28cff3caf36870f71141918e01bb1b33.s3tc.ctex::
+TreeLeafsMaterial.tres::StandardMaterial3D::926955778146972176::1765351065::0::1::::<><><>0<>0<><>::
 standard_material_chest.tres::StandardMaterial3D::4958376468368295214::1765308000::0::1::::<><><>0<>0<><>::uid://qb24bp4ax480::::res://models/chest_texture.png
-::res://scenes/::1765309957
+::res://scenes/::1765350850
 chest.tscn::PackedScene::5322811271281937580::1765309957::0::1::::<><><>0<>0<><>::uid://ceck4ajm1frnf::::res://models/chest_gold.glb
+tree.tscn::PackedScene::3214135188472560036::1765350850::0::1::::<><><>0<>0<><>::
