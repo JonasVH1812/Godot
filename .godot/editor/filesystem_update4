@@ -1,2 +1,7 @@
 res://scenes/tree.tscn
 res://models/tree.tres
+res://main.tscn
+res://addons/proto_controller/proto_controller.gd
+res://addons/proto_controller/proto_controller.tscn
+res://scripts/Hakken.gd
+res://scripts/tree.gd

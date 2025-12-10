@@ -63,24 +63,6 @@ script = ExtResource("2_7mycd")
 
 [node name="ProtoController" parent="." instance=ExtResource("1_ig7tw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 8)
-can_move = null
-has_gravity = null
-can_jump = null
-can_sprint = null
-can_freefly = null
-look_speed = null
-base_speed = null
-jump_velocity = null
-sprint_speed = null
-freefly_speed = null
-input_left = null
-input_right = null
-input_forward = null
-input_back = null
-input_jump = null
-input_sprint = null
-input_freefly = null
-chop_distance = null
 
 [node name="chest_gold2" parent="." instance=ExtResource("2_0xm2m")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5318198, 5)
