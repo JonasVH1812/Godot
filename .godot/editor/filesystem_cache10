@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765359650
+::res://::1765359823
 icon.svg::CompressedTexture2D::978719341439678647::1765307805::1765307969::1::::<><><>0<>0<>7173815a4e1f8a318a64a29e684d2b69<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 main.tscn::PackedScene::5693815955876668973::1765310034::0::1::::<><><>0<>0<><>::uid://bs72ogkvdd7d6::::res://addons/proto_controller/proto_controller.tscn<>uid://ceck4ajm1frnf::::res://models/chest_gold.glb<>uid://v8rk6kpx3pjx::::res://models/barrel.glb<>uid://ch3n6odsoymoa::::res://scenes/chest.tscn
 README.md::TextFile::-1::1765307805::0::1::::<><><>0<>0<><>::
@@ -7,7 +7,7 @@ README.md::TextFile::-1::1765307805::0::1::::<><><>0<>0<><>::
 ::res://addons/proto_controller/::1765307805
 proto_controller.gd::GDScript::4346621539400993354::1765307805::0::1::::<>CharacterBody3D<><>0<>0<><>::
 proto_controller.tscn::PackedScene::3717544648773412845::1765307805::0::1::::<><><>0<>0<><>::res://addons/proto_controller/proto_controller.gd
-::res://models/::1765359775
+::res://models/::1765360379
 barrel.glb::PackedScene::1543141873484015413::1765308732::1765308732::1::::<><><>0<>0<>a225e540385952c7b2fc07894c1705cd<>res://.godot/imported/barrel.glb-87478f161d9ee0805299313bae4ec454.scn::uid://c71y78r0up7mk::::res://models/barrel_texture.png
 barrel_texture.png::CompressedTexture2D::7074074299335613498::1765308732::1765308733::1::::<><><>0<>0<>478e854bf0639745d1fc47de899e199a<>res://.godot/imported/barrel_texture.png-9bf1af84b5aca89ec69942c107e1c803.s3tc.ctex::
 chest_gold.glb::PackedScene::5058384469880784011::1765307805::1765307970::1::::<><><>0<>0<>5c407f22ae3ed68ce90d15bc995a5347<>res://.godot/imported/chest_gold.glb-a717046e63b48503ebe1cb55abe5035c.scn::uid://ccv40a28r3oqg::::res://models/standard_material_chest.tres
@@ -15,9 +15,10 @@ chest_texture.png::CompressedTexture2D::1126777099804496775::1765307805::1765307
 leafs2.jpeg::CompressedTexture2D::5570180755670882334::1765359775::1765359781::1::::<><><>0<>0<>bfa14b22f9d274a2835dedd4ac038376<>res://.godot/imported/leafs2.jpeg-8b43e2661ee741d21533f26217c9e0b2.s3tc.ctex::
 leafs.jpeg::CompressedTexture2D::691625177587080002::1765359775::1765359781::1::::<><><>0<>0<>f3ed24b46f80f0e0f133ab73cb98911c<>res://.godot/imported/leafs.jpeg-28cff3caf36870f71141918e01bb1b33.s3tc.ctex::
 standard_material_chest.tres::StandardMaterial3D::4958376468368295214::1765308134::0::1::::<><><>0<>0<><>::uid://qb24bp4ax480::::res://models/chest_texture.png
-tree.tres::StandardMaterial3D::-1::1765359775::0::1::::<><><>0<>0<><>::
-TreeLeafsMaterial.tres::StandardMaterial3D::-1::1765359775::0::1::::<><><>0<>0<><>::
-treeMesh.tres::MeshTexture::-1::1765359775::0::1::::<><><>0<>0<><>::
+tree.tres::StandardMaterial3D::1270359979994544402::1765359780::0::1::::<><><>0<>0<><>::
+TreeLeafsMaterial.tres::StandardMaterial3D::926955778146972176::1765359780::0::1::::<><><>0<>0<><>::uid://clmicfdjuv1ha::::res://models/leafs2.jpeg
+treeMesh.tres::MeshTexture::2275077268644209226::1765359780::0::1::::<><><>0<>0<><>::
+wood texture.png::CompressedTexture2D::6896876612543361369::1765360378::1765360387::1::::<><><>0<>0<>80b48c2f824b297f47508faf98ef5582<>res://.godot/imported/wood texture.png-0d2faca47e434fca844aba2419d34d51.s3tc.ctex::
 ::res://scenes/::1765359775
 chest.tscn::PackedScene::5322811271281937580::1765309385::0::1::::<><><>0<>0<><>::uid://ceck4ajm1frnf::::res://models/chest_gold.glb
-tree.tscn::PackedScene::3214135188472560036::1765359775::0::1::::<><><>0<>0<><>::
+tree.tscn::PackedScene::3214135188472560036::1765359775::0::1::::<><><>0<>0<><>::uid://nha3dendv3iy::::res://models/TreeLeafsMaterial.tres
