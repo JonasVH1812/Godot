@@ -1,9 +1,9 @@
+CSGBox3D
+CSGCombiner3D
 CollisionShape3D
 StaticBody3D
 DirectionalLight3D      - Matches the "sun" keyword.
 WorldEnvironment
 Camera3D
-CSGCombiner3D
-CSGBox3D
 CSGCylinder3D
 MeshInstance3D
