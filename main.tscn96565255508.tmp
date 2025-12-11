@@ -104,23 +104,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 0, -2)
 
 [node name="ProtoController" parent="." groups=["player"] instance=ExtResource("1_ig7tw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 8)
-base_speed = null
-sprint_speed = null
-jump_velocity = null
-look_speed = null
-has_gravity = null
-can_freefly = null
-freefly_speed = null
-pickup_distance = null
-hold_distance = null
-input_pickup = null
-chop_distance = null
-input_left = null
-input_right = null
-input_forward = null
-input_back = null
-input_jump = null
-input_sprint = null
 
 [node name="chest" parent="." instance=ExtResource("4_1bvp3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3591733, -0.5000007, 1.7107654)

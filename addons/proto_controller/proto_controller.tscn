@@ -106,6 +106,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Head"]
 
+[node name="HoldPoint" type="Node3D" parent="Head"]
+transform = Transform3D(1, 0, -8.351871e-23, 0, 1, 0, -8.351872e-23, 0, 1, 0, -0.48126125, -1.3716395)
+
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
 &"": SubResource("AnimationLibrary_6dqce")
