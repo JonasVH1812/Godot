@@ -4,14 +4,14 @@
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_noarx"]
 
-[node name="tree_log" type="Node3D" groups=["logs"]]
+[node name="tree_log" type="Node3D" groups=["pickable"]]
 
-[node name="RigidBody3D" type="RigidBody3D" parent="." groups=["logs"]]
+[node name="RigidBody3D" type="RigidBody3D" parent="." groups=["logs", "pickable"]]
 
 [node name="CSGBox3D" type="CSGBox3D" parent="RigidBody3D"]
 size = Vector3(0.5, 0.5, 0.5)
 material = ExtResource("1_a202f")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" groups=["logs"]]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" groups=["pickable"]]
 transform = Transform3D(0.48, 0, 0, 0, 0.48, 0, 0, 0, 0.48, 0, 0, 0)
 shape = SubResource("BoxShape3D_noarx")

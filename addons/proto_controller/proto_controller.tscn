@@ -17,6 +17,33 @@ height = 1.8
 radius = 0.4
 height = 1.8
 
+[sub_resource type="Animation" id="Animation_5hfox"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Root Scene:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(1.5707964, 1.5707964, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Root Scene:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.56170696, 1.3958362, -0.6986666)]
+}
+
 [sub_resource type="Animation" id="Animation_wr06p"]
 resource_name = "hakken"
 length = 3.0
@@ -43,33 +70,6 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1),
 "update": 0,
 "values": [Vector3(0.56170696, 1.3958362, -0.6986666), Vector3(0.56170696, 1.4517664, -0.36222655), Vector3(0.56170696, 1.3995649, -0.79041666), Vector3(0.56170696, 1.3958362, -0.6986666)]
-}
-
-[sub_resource type="Animation" id="Animation_5hfox"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Root Scene:rotation")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(1.5707964, 1.5707964, 0)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Root Scene:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(0.56170696, 1.3958362, -0.6986666)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6dqce"]
@@ -106,8 +106,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Head"]
 
-[node name="HoldPoint" type="Node3D" parent="Head"]
+[node name="Hand" type="Node3D" parent="Head/Camera3D"]
 transform = Transform3D(1, 0, -8.351871e-23, 0, 1, 0, -8.351872e-23, 0, 1, 0, -0.48126125, -1.3716395)
+
+[node name="RayCast3D" type="RayCast3D" parent="Head/Camera3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00017738342, -0.42077184, -1.2182171)
+target_position = Vector3(0, 0, -2)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
