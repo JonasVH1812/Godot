@@ -1,11 +1,8 @@
 res://scenes/tree.tscn
+res://models/TreeLeafsMaterial.tres
 res://models/tree.tres
-res://main.tscn
+res://models/treeMesh.tres
 res://addons/proto_controller/proto_controller.gd
-res://addons/proto_controller/proto_controller.tscn
-res://scripts/Hakken.gd
-res://scripts/tree.gd
-res://node_3d.tscn
-res://scripts/tree_log.gd
 res://scenes/tree_log.tscn
 res://scenes/chest.tscn
+res://main.tscn
