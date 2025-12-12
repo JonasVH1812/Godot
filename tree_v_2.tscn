@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 [gd_scene load_steps=3 format=3 uid="uid://d0ni0a3aw5ffd"]
 
 [ext_resource type="Material" uid="uid://sdmv4va8lc8a" path="res://models/tree.tres" id="1_o0dwr"]
+=======
+[gd_scene load_steps=4 format=3 uid="uid://dr73oeerxtdlj"]
+>>>>>>> 7c11eb4195fc5b3ac4fba63a5f20d37106d30223
 
 [sub_resource type="BoxMesh" id="BoxMesh_86jbs"]
 
