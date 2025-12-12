@@ -2,5 +2,6 @@ res://addons/proto_controller/proto_controller.gd
 res://main.tscn
 res://addons/proto_controller/proto_controller.tscn
 res://scenes/tree_log.tscn
-res://tree_v_2.tscn
 res://scenes/tree.tscn
+res://scenes/tree_v_2.tscn
+res://tree_v_2.tscn
