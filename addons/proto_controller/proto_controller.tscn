@@ -79,6 +79,7 @@ _data = {
 }
 
 [node name="ProtoController" type="CharacterBody3D"]
+collision_mask = 2
 script = ExtResource("1_ucva2")
 
 [node name="Root Scene" parent="." instance=ExtResource("2_wr06p")]

@@ -7,8 +7,11 @@
 [node name="tree_log" type="Node3D" groups=["pickable"]]
 
 [node name="RigidBody3D" type="RigidBody3D" parent="." groups=["logs", "pickable"]]
+collision_layer = 11
+collision_mask = 11
 
 [node name="CSGBox3D" type="CSGBox3D" parent="RigidBody3D"]
+layers = 2
 size = Vector3(0.5, 0.5, 0.5)
 material = ExtResource("1_a202f")
 
