@@ -107,6 +107,3 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 8)
 
 [node name="chest" parent="." instance=ExtResource("4_1bvp3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3591733, -0.5000007, 2.1262069)
-
-[node name="Tree" parent="." instance=ExtResource("1_lquwl")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.793379, -0.06594747, 10.344643)
