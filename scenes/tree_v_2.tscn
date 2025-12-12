@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://cn1t6gxsh2hid"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_86jbs"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_o0dwr"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_iu5qg"]
+
+[node name="Tree v2" type="Node3D"]
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 10.513801, 0, 0, 0, 1, 0, 5, 0)
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="CSGCombiner3D"]
+use_collision = true
+mesh = SubResource("BoxMesh_86jbs")
+
+[node name="CSGMesh3D3" type="CSGMesh3D" parent="CSGCombiner3D"]
+transform = Transform3D(0.0500783, -1.4869144, 0, 0.0027499779, 0.24495533, 0, 0, 0, 0.1357553, -0.8594318, 0.57249665, -0.018482774)
+mesh = SubResource("BoxMesh_o0dwr")
+
+[node name="CSGMesh3D2" type="CSGMesh3D" parent="CSGCombiner3D"]
+transform = Transform3D(0.072212815, -1.2411478, 0.14279962, -0.005419069, -0.22483294, 0.00018783043, -0.050261095, 0.8963891, 0.20292924, 0.7952713, 0.5515498, -0.6898895)
+flip_faces = true
+mesh = SubResource("BoxMesh_iu5qg")
