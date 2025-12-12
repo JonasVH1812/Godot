@@ -71,7 +71,7 @@ tree_log = ExtResource("3_272bh")
 hit_sound = ExtResource("4_5vw27")
 
 [node name="Tree7" parent="CSGCombiner3D" instance=ExtResource("1_lquwl")]
-transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, -12, 0, 5)
+transform = Transform3D(1.9000001, 0, 0, 0, 1.9000001, 0, 0, 0, 1.9000001, -12.001219, 0, 4.995986)
 script = ExtResource("2_7mycd")
 tree_log = ExtResource("3_272bh")
 hit_sound = ExtResource("4_5vw27")

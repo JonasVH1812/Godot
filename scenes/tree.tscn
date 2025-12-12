@@ -12,1593 +12,6 @@ size = Vector3(1, 1.7011719, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_qd6xs"]
 size = Vector3(3.9334717, 1.289978, 3.2218933)
 
-[sub_resource type="Animation" id="Animation_vplca"]
-resource_name = "tree_fall"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D5:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(1.8434238, -12.372879, 11.023016), Vector3(26.340733, -22.601473, 14.314383)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D9:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.2084446, -8.497298, 9.19997), Vector3(22.242952, -24.791014, 13.889795)]
-}
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D8:position")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.27135468, -4.559542, 9.56945), Vector3(18.483158, -23.935965, 14.863255)]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D2:position")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.7778149, -7.4663305, 4.6755834), Vector3(20.358496, -27.437473, 10.244215)]
-}
-tracks/4/type = "value"
-tracks/4/imported = false
-tracks/4/enabled = true
-tracks/4/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D10:position")
-tracks/4/interp = 1
-tracks/4/loop_wrap = true
-tracks/4/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.9976959, -8.28721, 1.5324135), Vector3(20.528389, -28.54411, 7.183162)]
-}
-tracks/5/type = "value"
-tracks/5/imported = false
-tracks/5/enabled = true
-tracks/5/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D14:position")
-tracks/5/interp = 1
-tracks/5/loop_wrap = true
-tracks/5/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.39496994, -5.369603, 7.282471), Vector3(18.821926, -25.248764, 12.731407)]
-}
-tracks/6/type = "value"
-tracks/6/imported = false
-tracks/6/enabled = true
-tracks/6/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D15:position")
-tracks/6/interp = 1
-tracks/6/loop_wrap = true
-tracks/6/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2522736, -3.8924656, 4.44892), Vector3(16.831764, -26.722752, 10.573723)]
-}
-tracks/7/type = "value"
-tracks/7/imported = false
-tracks/7/enabled = true
-tracks/7/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D4:position")
-tracks/7/interp = 1
-tracks/7/loop_wrap = true
-tracks/7/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2069035, -11.184992, 3.7237267), Vector3(23.771, -27.409836, 8.481232)]
-}
-tracks/8/type = "value"
-tracks/8/imported = false
-tracks/8/enabled = true
-tracks/8/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D12:position")
-tracks/8/interp = 1
-tracks/8/loop_wrap = true
-tracks/8/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.9000454, -9.198549, -0.76937485), Vector3(20.949913, -29.126165, 4.812553)]
-}
-tracks/9/type = "value"
-tracks/9/imported = false
-tracks/9/enabled = true
-tracks/9/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D13:position")
-tracks/9/interp = 1
-tracks/9/loop_wrap = true
-tracks/9/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.3799782, -4.5711594, 0.34959996), Vector3(16.669926, -27.982534, 6.6137886)]
-}
-tracks/10/type = "value"
-tracks/10/imported = false
-tracks/10/enabled = true
-tracks/10/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4:position")
-tracks/10/interp = 1
-tracks/10/loop_wrap = true
-tracks/10/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.12162661, 1.7033687, 0.42834923), Vector3(-0.12162661, 1.7033687, 0.42834923)]
-}
-tracks/11/type = "value"
-tracks/11/imported = false
-tracks/11/enabled = true
-tracks/11/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D:position")
-tracks/11/interp = 1
-tracks/11/loop_wrap = true
-tracks/11/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/12/type = "value"
-tracks/12/imported = false
-tracks/12/enabled = true
-tracks/12/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D2:position")
-tracks/12/interp = 1
-tracks/12/loop_wrap = true
-tracks/12/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/13/type = "value"
-tracks/13/imported = false
-tracks/13/enabled = true
-tracks/13/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D2/CSGBox3D:position")
-tracks/13/interp = 1
-tracks/13/loop_wrap = true
-tracks/13/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/14/type = "value"
-tracks/14/imported = false
-tracks/14/enabled = true
-tracks/14/path = NodePath("StaticBody3D/CollisionShape3D:position")
-tracks/14/interp = 1
-tracks/14/loop_wrap = true
-tracks/14/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(0, -1.2218866, -1.5159129)]
-}
-tracks/15/type = "value"
-tracks/15/imported = false
-tracks/15/enabled = true
-tracks/15/path = NodePath("StaticBody3D/CollisionShape3D3:position")
-tracks/15/interp = 1
-tracks/15/loop_wrap = true
-tracks/15/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.17104143, 1.6178625, 0.12517834), Vector3(-0.17104143, -1.0967083, -3.1337755)]
-}
-tracks/16/type = "value"
-tracks/16/imported = false
-tracks/16/enabled = true
-tracks/16/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11:position")
-tracks/16/interp = 1
-tracks/16/loop_wrap = true
-tracks/16/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.4732566, 1.7033687, 0.09687504), Vector3(-0.4732566, 1.7033687, 0.09687504)]
-}
-tracks/17/type = "value"
-tracks/17/imported = false
-tracks/17/enabled = true
-tracks/17/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2:position")
-tracks/17/interp = 1
-tracks/17/loop_wrap = true
-tracks/17/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.19374785, 2.6074793, 0.22449693), Vector3(0.19374785, 2.6074793, 0.22449693)]
-}
-tracks/18/type = "value"
-tracks/18/imported = false
-tracks/18/enabled = true
-tracks/18/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D2:position")
-tracks/18/interp = 1
-tracks/18/loop_wrap = true
-tracks/18/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/19/type = "value"
-tracks/19/imported = false
-tracks/19/enabled = true
-tracks/19/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D2/CSGBox3D:position")
-tracks/19/interp = 1
-tracks/19/loop_wrap = true
-tracks/19/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/20/type = "value"
-tracks/20/imported = false
-tracks/20/enabled = true
-tracks/20/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D3:position")
-tracks/20/interp = 1
-tracks/20/loop_wrap = true
-tracks/20/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.8683834, -13.389944, 4.8459034), Vector3(26.13319, -26.946817, 9.025759)]
-}
-tracks/21/type = "value"
-tracks/21/imported = false
-tracks/21/enabled = true
-tracks/21/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D25:position")
-tracks/21/interp = 1
-tracks/21/loop_wrap = true
-tracks/21/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.216568, -13.876265, 6.012181), Vector3(26.821972, -25.619953, 9.74032)]
-}
-tracks/22/type = "value"
-tracks/22/imported = false
-tracks/22/enabled = true
-tracks/22/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D11:position")
-tracks/22/interp = 1
-tracks/22/loop_wrap = true
-tracks/22/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.7259178, -11.512525, 1.1423272), Vector3(23.57935, -28.621828, 6.1246533)]
-}
-tracks/23/type = "value"
-tracks/23/imported = false
-tracks/23/enabled = true
-tracks/23/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D6:position")
-tracks/23/interp = 1
-tracks/23/loop_wrap = true
-tracks/23/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.10743523, -11.765908, 7.738451), Vector3(25.123604, -25.321556, 11.858906)]
-}
-tracks/24/type = "value"
-tracks/24/imported = false
-tracks/24/enabled = true
-tracks/24/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D7:position")
-tracks/24/interp = 1
-tracks/24/loop_wrap = true
-tracks/24/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.7979889, -15.04028, -0.1021564), Vector3(26.741665, -28.310747, 4.0263953)]
-}
-tracks/25/type = "value"
-tracks/25/imported = false
-tracks/25/enabled = true
-tracks/25/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D24:position")
-tracks/25/interp = 1
-tracks/25/loop_wrap = true
-tracks/25/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.41864967, -14.560014, 2.456952), Vector3(26.782755, -27.229052, 6.4287677)]
-}
-tracks/26/type = "value"
-tracks/26/imported = false
-tracks/26/enabled = true
-tracks/26/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D20:position")
-tracks/26/interp = 1
-tracks/26/loop_wrap = true
-tracks/26/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(1.900692, -11.860276, -9.816353), Vector3(21.655876, -28.026466, -5.2473707)]
-}
-tracks/27/type = "value"
-tracks/27/imported = false
-tracks/27/enabled = true
-tracks/27/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D19:position")
-tracks/27/interp = 1
-tracks/27/loop_wrap = true
-tracks/27/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(1.4613838, -11.217662, -7.0201893), Vector3(21.600424, -27.66527, -2.3703365)]
-}
-tracks/28/type = "value"
-tracks/28/imported = false
-tracks/28/enabled = true
-tracks/28/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D23:position")
-tracks/28/interp = 1
-tracks/28/loop_wrap = true
-tracks/28/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(2.7655106, -18.865868, -3.422357), Vector3(29.7327, -26.011042, -0.7942176)]
-}
-tracks/29/type = "value"
-tracks/29/imported = false
-tracks/29/enabled = true
-tracks/29/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D22:position")
-tracks/29/interp = 1
-tracks/29/loop_wrap = true
-tracks/29/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(1.789854, -16.75502, -2.3776166), Vector3(27.90777, -26.52613, 0.85721445)]
-}
-tracks/30/type = "value"
-tracks/30/imported = false
-tracks/30/enabled = true
-tracks/30/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D21:position")
-tracks/30/interp = 1
-tracks/30/loop_wrap = true
-tracks/30/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(1.0707054, -14.391888, -3.3640125), Vector3(25.425478, -27.311256, 0.5733175)]
-}
-tracks/31/type = "value"
-tracks/31/imported = false
-tracks/31/enabled = true
-tracks/31/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D2:position")
-tracks/31/interp = 1
-tracks/31/loop_wrap = true
-tracks/31/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/32/type = "value"
-tracks/32/imported = false
-tracks/32/enabled = true
-tracks/32/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9:position")
-tracks/32/interp = 1
-tracks/32/loop_wrap = true
-tracks/32/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.48215607, 1.7033687, 0.012407064), Vector3(0.48215607, 1.7033687, 0.012407064)]
-}
-tracks/33/type = "value"
-tracks/33/imported = false
-tracks/33/enabled = true
-tracks/33/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D2:position")
-tracks/33/interp = 1
-tracks/33/loop_wrap = true
-tracks/33/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/34/type = "value"
-tracks/34/imported = false
-tracks/34/enabled = true
-tracks/34/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D:position")
-tracks/34/interp = 1
-tracks/34/loop_wrap = true
-tracks/34/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/35/type = "value"
-tracks/35/imported = false
-tracks/35/enabled = true
-tracks/35/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D2/CSGBox3D:position")
-tracks/35/interp = 1
-tracks/35/loop_wrap = true
-tracks/35/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/36/type = "value"
-tracks/36/imported = false
-tracks/36/enabled = true
-tracks/36/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D6:position")
-tracks/36/interp = 1
-tracks/36/loop_wrap = true
-tracks/36/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 1.4610116, 0), Vector3(0, 1.4610116, 0)]
-}
-tracks/37/type = "value"
-tracks/37/imported = false
-tracks/37/enabled = true
-tracks/37/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D2:position")
-tracks/37/interp = 1
-tracks/37/loop_wrap = true
-tracks/37/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/38/type = "value"
-tracks/38/imported = false
-tracks/38/enabled = true
-tracks/38/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3:position")
-tracks/38/interp = 1
-tracks/38/loop_wrap = true
-tracks/38/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.4732566, 1.7033687, -0.2682161), Vector3(-0.4732566, 1.7033687, -0.2682161)]
-}
-tracks/39/type = "value"
-tracks/39/imported = false
-tracks/39/enabled = true
-tracks/39/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D2:position")
-tracks/39/interp = 1
-tracks/39/loop_wrap = true
-tracks/39/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/40/type = "value"
-tracks/40/imported = false
-tracks/40/enabled = true
-tracks/40/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5:position")
-tracks/40/interp = 1
-tracks/40/loop_wrap = true
-tracks/40/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.24432272, 1.7033687, -0.4074662), Vector3(0.24432272, 1.7033687, -0.4074662)]
-}
-tracks/41/type = "value"
-tracks/41/imported = false
-tracks/41/enabled = true
-tracks/41/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D:position")
-tracks/41/interp = 1
-tracks/41/loop_wrap = true
-tracks/41/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/42/type = "value"
-tracks/42/imported = false
-tracks/42/enabled = true
-tracks/42/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D2/CSGBox3D:position")
-tracks/42/interp = 1
-tracks/42/loop_wrap = true
-tracks/42/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/43/type = "value"
-tracks/43/imported = false
-tracks/43/enabled = true
-tracks/43/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D:position")
-tracks/43/interp = 1
-tracks/43/loop_wrap = true
-tracks/43/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/44/type = "value"
-tracks/44/imported = false
-tracks/44/enabled = true
-tracks/44/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D2/CSGBox3D:position")
-tracks/44/interp = 1
-tracks/44/loop_wrap = true
-tracks/44/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/45/type = "value"
-tracks/45/imported = false
-tracks/45/enabled = true
-tracks/45/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D2:position")
-tracks/45/interp = 1
-tracks/45/loop_wrap = true
-tracks/45/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/46/type = "value"
-tracks/46/imported = false
-tracks/46/enabled = true
-tracks/46/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D2:position")
-tracks/46/interp = 1
-tracks/46/loop_wrap = true
-tracks/46/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/47/type = "value"
-tracks/47/imported = false
-tracks/47/enabled = true
-tracks/47/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D2/CSGBox3D:position")
-tracks/47/interp = 1
-tracks/47/loop_wrap = true
-tracks/47/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/48/type = "value"
-tracks/48/imported = false
-tracks/48/enabled = true
-tracks/48/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D16:position")
-tracks/48/interp = 1
-tracks/48/loop_wrap = true
-tracks/48/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-2.2045326, -7.2152214, -3.5087368), Vector3(18.47767, -30.000753, 2.6919706)]
-}
-tracks/49/type = "value"
-tracks/49/imported = false
-tracks/49/enabled = true
-tracks/49/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D26:position")
-tracks/49/interp = 1
-tracks/49/loop_wrap = true
-tracks/49/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(1.6449108, -15.810928, 1.4556652), Vector3(27.762827, -25.582039, 4.690494)]
-}
-tracks/50/type = "value"
-tracks/50/imported = false
-tracks/50/enabled = true
-tracks/50/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D18:position")
-tracks/50/interp = 1
-tracks/50/loop_wrap = true
-tracks/50/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.57403564, -9.820651, -4.1265354), Vector3(20.858046, -28.77302, 1.1722164)]
-}
-tracks/51/type = "value"
-tracks/51/imported = false
-tracks/51/enabled = true
-tracks/51/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D2/CSGBox3D:position")
-tracks/51/interp = 1
-tracks/51/loop_wrap = true
-tracks/51/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/52/type = "value"
-tracks/52/imported = false
-tracks/52/enabled = true
-tracks/52/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7:position")
-tracks/52/interp = 1
-tracks/52/loop_wrap = true
-tracks/52/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.2011728, 2.6074793, 0.05001217), Vector3(-0.2011728, 2.6074793, 0.05001217)]
-}
-tracks/53/type = "value"
-tracks/53/imported = false
-tracks/53/enabled = true
-tracks/53/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D:position")
-tracks/53/interp = 1
-tracks/53/loop_wrap = true
-tracks/53/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/54/type = "value"
-tracks/54/imported = false
-tracks/54/enabled = true
-tracks/54/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D2:position")
-tracks/54/interp = 1
-tracks/54/loop_wrap = true
-tracks/54/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/55/type = "value"
-tracks/55/imported = false
-tracks/55/enabled = true
-tracks/55/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10:position")
-tracks/55/interp = 1
-tracks/55/loop_wrap = true
-tracks/55/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.24723378, 2.6074793, -0.23001727), Vector3(-0.24723378, 2.6074793, -0.23001727)]
-}
-tracks/56/type = "value"
-tracks/56/imported = false
-tracks/56/enabled = true
-tracks/56/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8:position")
-tracks/56/interp = 1
-tracks/56/loop_wrap = true
-tracks/56/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.06648712, 2.6074793, -0.23001735), Vector3(0.06648712, 2.6074793, -0.23001735)]
-}
-tracks/57/type = "value"
-tracks/57/imported = false
-tracks/57/enabled = true
-tracks/57/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D:position")
-tracks/57/interp = 1
-tracks/57/loop_wrap = true
-tracks/57/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/58/type = "value"
-tracks/58/imported = false
-tracks/58/enabled = true
-tracks/58/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D2/CSGBox3D:position")
-tracks/58/interp = 1
-tracks/58/loop_wrap = true
-tracks/58/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/59/type = "value"
-tracks/59/imported = false
-tracks/59/enabled = true
-tracks/59/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D:position")
-tracks/59/interp = 1
-tracks/59/loop_wrap = true
-tracks/59/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/60/type = "value"
-tracks/60/imported = false
-tracks/60/enabled = true
-tracks/60/path = NodePath("StaticBody3D/CollisionShape3D2:position")
-tracks/60/interp = 1
-tracks/60/loop_wrap = true
-tracks/60/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 1.1297746, 0), Vector3(0, -1.2218866, -2.6456876)]
-}
-tracks/61/type = "value"
-tracks/61/imported = false
-tracks/61/enabled = true
-tracks/61/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D:position")
-tracks/61/interp = 1
-tracks/61/loop_wrap = true
-tracks/61/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/62/type = "value"
-tracks/62/imported = false
-tracks/62/enabled = true
-tracks/62/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D:position")
-tracks/62/interp = 1
-tracks/62/loop_wrap = true
-tracks/62/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/63/type = "value"
-tracks/63/imported = false
-tracks/63/enabled = true
-tracks/63/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D2/CSGBox3D:position")
-tracks/63/interp = 1
-tracks/63/loop_wrap = true
-tracks/63/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
-}
-tracks/64/type = "value"
-tracks/64/imported = false
-tracks/64/enabled = true
-tracks/64/path = NodePath("CSGCombiner3D/CSGBox3D:position")
-tracks/64/interp = 1
-tracks/64/loop_wrap = true
-tracks/64/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.051674366, 0.7301356, 0.27177405), Vector3(-0.051674366, 0.0992496, -0.6491399)]
-}
-tracks/65/type = "value"
-tracks/65/imported = false
-tracks/65/enabled = true
-tracks/65/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D17:position")
-tracks/65/interp = 1
-tracks/65/loop_wrap = true
-tracks/65/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.18244171, -0.47561073, -0.1480267), Vector3(12.564676, -26.293728, 6.5089993)]
-}
-tracks/66/type = "value"
-tracks/66/imported = false
-tracks/66/enabled = true
-tracks/66/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D5:rotation")
-tracks/66/interp = 1
-tracks/66/loop_wrap = true
-tracks/66/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2974093, -1.0174259, 3.0870414), Vector3(0.13164508, -1.1734239, -2.370956)]
-}
-tracks/67/type = "value"
-tracks/67/imported = false
-tracks/67/enabled = true
-tracks/67/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D9:rotation")
-tracks/67/interp = 1
-tracks/67/loop_wrap = true
-tracks/67/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2974093, -1.0174259, 3.0870414), Vector3(0.13164508, -1.1734239, -2.370956)]
-}
-tracks/68/type = "value"
-tracks/68/imported = false
-tracks/68/enabled = true
-tracks/68/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D8:rotation")
-tracks/68/interp = 1
-tracks/68/loop_wrap = true
-tracks/68/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.8109946, -2.8767512, -1.403968), Vector3(0.3120788, -2.0483224, -2.5371552)]
-}
-tracks/69/type = "value"
-tracks/69/imported = false
-tracks/69/enabled = true
-tracks/69/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D2:rotation")
-tracks/69/interp = 1
-tracks/69/loop_wrap = true
-tracks/69/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2684891, -2.2664177, -1.9582894), Vector3(0.21907847, -1.5013318, -2.4003742)]
-}
-tracks/70/type = "value"
-tracks/70/imported = false
-tracks/70/enabled = true
-tracks/70/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D10:rotation")
-tracks/70/interp = 1
-tracks/70/loop_wrap = true
-tracks/70/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2165185, -2.382639, -2.4421122), Vector3(0.2464327, -1.5607911, -3.0079813)]
-}
-tracks/71/type = "value"
-tracks/71/imported = false
-tracks/71/enabled = true
-tracks/71/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D14:rotation")
-tracks/71/interp = 1
-tracks/71/loop_wrap = true
-tracks/71/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.8109945, -2.876751, -1.4039681), Vector3(0.31207907, -2.0483224, -2.537155)]
-}
-tracks/72/type = "value"
-tracks/72/imported = false
-tracks/72/enabled = true
-tracks/72/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D15:rotation")
-tracks/72/interp = 1
-tracks/72/loop_wrap = true
-tracks/72/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.19383176, -3.0409803, -1.2760732), Vector3(0.3456975, -2.7173157, -2.7160141)]
-}
-tracks/73/type = "value"
-tracks/73/imported = false
-tracks/73/enabled = true
-tracks/73/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D4:rotation")
-tracks/73/interp = 1
-tracks/73/loop_wrap = true
-tracks/73/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2974093, -1.0174259, 3.0870414), Vector3(0.13164508, -1.1734239, -2.370956)]
-}
-tracks/74/type = "value"
-tracks/74/imported = false
-tracks/74/enabled = true
-tracks/74/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D12:rotation")
-tracks/74/interp = 1
-tracks/74/loop_wrap = true
-tracks/74/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2165185, -2.382639, -2.4421122), Vector3(0.2464327, -1.5607911, -3.0079813)]
-}
-tracks/75/type = "value"
-tracks/75/imported = false
-tracks/75/enabled = true
-tracks/75/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D13:rotation")
-tracks/75/interp = 1
-tracks/75/loop_wrap = true
-tracks/75/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2353547, 2.7955933, -1.2918847), Vector3(-0.07908321, -1.7087783, -2.9218445)]
-}
-tracks/76/type = "value"
-tracks/76/imported = false
-tracks/76/enabled = true
-tracks/76/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4:rotation")
-tracks/76/interp = 1
-tracks/76/loop_wrap = true
-tracks/76/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-6.245697e-08, -1.8125942, -0.57189226), Vector3(-6.245697e-08, -1.8125942, -0.57189226)]
-}
-tracks/77/type = "value"
-tracks/77/imported = false
-tracks/77/enabled = true
-tracks/77/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D:rotation")
-tracks/77/interp = 1
-tracks/77/loop_wrap = true
-tracks/77/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/78/type = "value"
-tracks/78/imported = false
-tracks/78/enabled = true
-tracks/78/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D2:rotation")
-tracks/78/interp = 1
-tracks/78/loop_wrap = true
-tracks/78/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/79/type = "value"
-tracks/79/imported = false
-tracks/79/enabled = true
-tracks/79/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D2/CSGBox3D:rotation")
-tracks/79/interp = 1
-tracks/79/loop_wrap = true
-tracks/79/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/80/type = "value"
-tracks/80/imported = false
-tracks/80/enabled = true
-tracks/80/path = NodePath("StaticBody3D/CollisionShape3D:rotation")
-tracks/80/interp = 1
-tracks/80/loop_wrap = true
-tracks/80/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(-1.5707964, 0, 0)]
-}
-tracks/81/type = "value"
-tracks/81/imported = false
-tracks/81/enabled = true
-tracks/81/path = NodePath("StaticBody3D/CollisionShape3D3:rotation")
-tracks/81/interp = 1
-tracks/81/loop_wrap = true
-tracks/81/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(-1.5707964, 0, 0)]
-}
-tracks/82/type = "value"
-tracks/82/imported = false
-tracks/82/enabled = true
-tracks/82/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11:rotation")
-tracks/82/interp = 1
-tracks/82/loop_wrap = true
-tracks/82/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(2.7892938e-08, -2.8406281, -0.5718924), Vector3(2.7892938e-08, -2.8406281, -0.5718924)]
-}
-tracks/83/type = "value"
-tracks/83/imported = false
-tracks/83/enabled = true
-tracks/83/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2:rotation")
-tracks/83/interp = 1
-tracks/83/loop_wrap = true
-tracks/83/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.4819103e-08, -0.8636762, -0.5718922), Vector3(-1.4819103e-08, -0.8636762, -0.5718922)]
-}
-tracks/84/type = "value"
-tracks/84/imported = false
-tracks/84/enabled = true
-tracks/84/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D2:rotation")
-tracks/84/interp = 1
-tracks/84/loop_wrap = true
-tracks/84/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/85/type = "value"
-tracks/85/imported = false
-tracks/85/enabled = true
-tracks/85/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D2/CSGBox3D:rotation")
-tracks/85/interp = 1
-tracks/85/loop_wrap = true
-tracks/85/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/86/type = "value"
-tracks/86/imported = false
-tracks/86/enabled = true
-tracks/86/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D3:rotation")
-tracks/86/interp = 1
-tracks/86/loop_wrap = true
-tracks/86/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.8404311, -0.04852044, 2.3470464), Vector3(-0.18466872, -0.648638, -2.2406049)]
-}
-tracks/87/type = "value"
-tracks/87/imported = false
-tracks/87/enabled = true
-tracks/87/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D25:rotation")
-tracks/87/interp = 1
-tracks/87/loop_wrap = true
-tracks/87/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.1416883, -0.58968896, 2.641887), Vector3(0.08277792, -0.96673995, -2.3903775)]
-}
-tracks/88/type = "value"
-tracks/88/imported = false
-tracks/88/enabled = true
-tracks/88/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D11:rotation")
-tracks/88/interp = 1
-tracks/88/loop_wrap = true
-tracks/88/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2165185, -2.382639, -2.4421122), Vector3(0.2464327, -1.5607911, -3.0079813)]
-}
-tracks/89/type = "value"
-tracks/89/imported = false
-tracks/89/enabled = true
-tracks/89/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D6:rotation")
-tracks/89/interp = 1
-tracks/89/loop_wrap = true
-tracks/89/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.1416885, -0.58968914, 2.6418872), Vector3(0.08277812, -0.9667401, -2.3903773)]
-}
-tracks/90/type = "value"
-tracks/90/imported = false
-tracks/90/enabled = true
-tracks/90/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D7:rotation")
-tracks/90/interp = 1
-tracks/90/loop_wrap = true
-tracks/90/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.074033976, -0.17893109, 1.9169407), Vector3(-0.08072701, 0.2762563, -2.8570142)]
-}
-tracks/91/type = "value"
-tracks/91/imported = false
-tracks/91/enabled = true
-tracks/91/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D24:rotation")
-tracks/91/interp = 1
-tracks/91/loop_wrap = true
-tracks/91/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.97895986, -2.2971177, -2.4948373), Vector3(0.46988145, -1.6561801, -3.0176983)]
-}
-tracks/92/type = "value"
-tracks/92/imported = false
-tracks/92/enabled = true
-tracks/92/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D20:rotation")
-tracks/92/interp = 1
-tracks/92/loop_wrap = true
-tracks/92/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.3154067, -3.0538044, -1.7954118), Vector3(0.033545658, -1.6129745, -3.01169)]
-}
-tracks/93/type = "value"
-tracks/93/imported = false
-tracks/93/enabled = true
-tracks/93/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D19:rotation")
-tracks/93/interp = 1
-tracks/93/loop_wrap = true
-tracks/93/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.3154067, -3.0538044, -1.7954118), Vector3(0.033545643, -1.6129745, -3.0116901)]
-}
-tracks/94/type = "value"
-tracks/94/imported = false
-tracks/94/enabled = true
-tracks/94/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D23:rotation")
-tracks/94/interp = 1
-tracks/94/loop_wrap = true
-tracks/94/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.22228248, -0.1268376, 1.9230256), Vector3(-0.14596532, -0.019351488, -2.813333)]
-}
-tracks/95/type = "value"
-tracks/95/imported = false
-tracks/95/enabled = true
-tracks/95/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D22:rotation")
-tracks/95/interp = 1
-tracks/95/loop_wrap = true
-tracks/95/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.22228253, -0.12683757, 1.9230256), Vector3(-0.14596532, -0.01935152, -2.8133333)]
-}
-tracks/96/type = "value"
-tracks/96/imported = false
-tracks/96/enabled = true
-tracks/96/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D21:rotation")
-tracks/96/interp = 1
-tracks/96/loop_wrap = true
-tracks/96/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0.07403395, -0.17893106, 1.9169407), Vector3(-0.0807271, 0.27625638, -2.8570142)]
-}
-tracks/97/type = "value"
-tracks/97/imported = false
-tracks/97/enabled = true
-tracks/97/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D2:rotation")
-tracks/97/interp = 1
-tracks/97/loop_wrap = true
-tracks/97/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/98/type = "value"
-tracks/98/imported = false
-tracks/98/enabled = true
-tracks/98/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9:rotation")
-tracks/98/interp = 1
-tracks/98/loop_wrap = true
-tracks/98/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.57189214), Vector3(0, 0, -0.57189214)]
-}
-tracks/99/type = "value"
-tracks/99/imported = false
-tracks/99/enabled = true
-tracks/99/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D2:rotation")
-tracks/99/interp = 1
-tracks/99/loop_wrap = true
-tracks/99/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/100/type = "value"
-tracks/100/imported = false
-tracks/100/enabled = true
-tracks/100/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D:rotation")
-tracks/100/interp = 1
-tracks/100/loop_wrap = true
-tracks/100/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/101/type = "value"
-tracks/101/imported = false
-tracks/101/enabled = true
-tracks/101/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D2/CSGBox3D:rotation")
-tracks/101/interp = 1
-tracks/101/loop_wrap = true
-tracks/101/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/102/type = "value"
-tracks/102/imported = false
-tracks/102/enabled = true
-tracks/102/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D6:rotation")
-tracks/102/interp = 1
-tracks/102/loop_wrap = true
-tracks/102/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(0, 0, 0)]
-}
-tracks/103/type = "value"
-tracks/103/imported = false
-tracks/103/enabled = true
-tracks/103/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D2:rotation")
-tracks/103/interp = 1
-tracks/103/loop_wrap = true
-tracks/103/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/104/type = "value"
-tracks/104/imported = false
-tracks/104/enabled = true
-tracks/104/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3:rotation")
-tracks/104/interp = 1
-tracks/104/loop_wrap = true
-tracks/104/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.852249e-08, 2.655693, -0.5718923), Vector3(-1.852249e-08, 2.655693, -0.5718923)]
-}
-tracks/105/type = "value"
-tracks/105/imported = false
-tracks/105/enabled = true
-tracks/105/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D2:rotation")
-tracks/105/interp = 1
-tracks/105/loop_wrap = true
-tracks/105/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/106/type = "value"
-tracks/106/imported = false
-tracks/106/enabled = true
-tracks/106/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5:rotation")
-tracks/106/interp = 1
-tracks/106/loop_wrap = true
-tracks/106/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-5.056052e-08, 0.9886941, -0.57189244), Vector3(-5.056052e-08, 0.9886941, -0.57189244)]
-}
-tracks/107/type = "value"
-tracks/107/imported = false
-tracks/107/enabled = true
-tracks/107/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D:rotation")
-tracks/107/interp = 1
-tracks/107/loop_wrap = true
-tracks/107/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/108/type = "value"
-tracks/108/imported = false
-tracks/108/enabled = true
-tracks/108/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D2/CSGBox3D:rotation")
-tracks/108/interp = 1
-tracks/108/loop_wrap = true
-tracks/108/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/109/type = "value"
-tracks/109/imported = false
-tracks/109/enabled = true
-tracks/109/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D:rotation")
-tracks/109/interp = 1
-tracks/109/loop_wrap = true
-tracks/109/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/110/type = "value"
-tracks/110/imported = false
-tracks/110/enabled = true
-tracks/110/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D2/CSGBox3D:rotation")
-tracks/110/interp = 1
-tracks/110/loop_wrap = true
-tracks/110/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/111/type = "value"
-tracks/111/imported = false
-tracks/111/enabled = true
-tracks/111/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D2:rotation")
-tracks/111/interp = 1
-tracks/111/loop_wrap = true
-tracks/111/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/112/type = "value"
-tracks/112/imported = false
-tracks/112/enabled = true
-tracks/112/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D2:rotation")
-tracks/112/interp = 1
-tracks/112/loop_wrap = true
-tracks/112/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/113/type = "value"
-tracks/113/imported = false
-tracks/113/enabled = true
-tracks/113/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D2/CSGBox3D:rotation")
-tracks/113/interp = 1
-tracks/113/loop_wrap = true
-tracks/113/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/114/type = "value"
-tracks/114/imported = false
-tracks/114/enabled = true
-tracks/114/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D16:rotation")
-tracks/114/interp = 1
-tracks/114/loop_wrap = true
-tracks/114/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.3154064, -3.0538044, -1.7954118), Vector3(0.03354575, -1.6129748, -3.0116901)]
-}
-tracks/115/type = "value"
-tracks/115/imported = false
-tracks/115/enabled = true
-tracks/115/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D26:rotation")
-tracks/115/interp = 1
-tracks/115/loop_wrap = true
-tracks/115/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-0.30250704, -0.15572993, 2.0770476), Vector3(-0.119836666, -0.100890234, -2.6560004)]
-}
-tracks/116/type = "value"
-tracks/116/imported = false
-tracks/116/enabled = true
-tracks/116/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D18:rotation")
-tracks/116/interp = 1
-tracks/116/loop_wrap = true
-tracks/116/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2353548, 2.7955933, -1.2918845), Vector3(-0.07908309, -1.7087781, -2.9218442)]
-}
-tracks/117/type = "value"
-tracks/117/imported = false
-tracks/117/enabled = true
-tracks/117/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D2/CSGBox3D:rotation")
-tracks/117/interp = 1
-tracks/117/loop_wrap = true
-tracks/117/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/118/type = "value"
-tracks/118/imported = false
-tracks/118/enabled = true
-tracks/118/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7:rotation")
-tracks/118/interp = 1
-tracks/118/loop_wrap = true
-tracks/118/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.0424171e-08, -2.853561, -0.57189214), Vector3(-1.0424171e-08, -2.853561, -0.57189214)]
-}
-tracks/119/type = "value"
-tracks/119/imported = false
-tracks/119/enabled = true
-tracks/119/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D:rotation")
-tracks/119/interp = 1
-tracks/119/loop_wrap = true
-tracks/119/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/120/type = "value"
-tracks/120/imported = false
-tracks/120/enabled = true
-tracks/120/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D2:rotation")
-tracks/120/interp = 1
-tracks/120/loop_wrap = true
-tracks/120/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/121/type = "value"
-tracks/121/imported = false
-tracks/121/enabled = true
-tracks/121/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10:rotation")
-tracks/121/interp = 1
-tracks/121/loop_wrap = true
-tracks/121/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.2064142e-07, 2.2786846, -0.57189214), Vector3(-1.2064142e-07, 2.2786846, -0.57189214)]
-}
-tracks/122/type = "value"
-tracks/122/imported = false
-tracks/122/enabled = true
-tracks/122/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8:rotation")
-tracks/122/interp = 1
-tracks/122/loop_wrap = true
-tracks/122/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.0556932e-07, 1.3518797, -0.5718921), Vector3(-1.0556932e-07, 1.3518797, -0.5718921)]
-}
-tracks/123/type = "value"
-tracks/123/imported = false
-tracks/123/enabled = true
-tracks/123/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D:rotation")
-tracks/123/interp = 1
-tracks/123/loop_wrap = true
-tracks/123/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/124/type = "value"
-tracks/124/imported = false
-tracks/124/enabled = true
-tracks/124/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D2/CSGBox3D:rotation")
-tracks/124/interp = 1
-tracks/124/loop_wrap = true
-tracks/124/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/125/type = "value"
-tracks/125/imported = false
-tracks/125/enabled = true
-tracks/125/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D:rotation")
-tracks/125/interp = 1
-tracks/125/loop_wrap = true
-tracks/125/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/126/type = "value"
-tracks/126/imported = false
-tracks/126/enabled = true
-tracks/126/path = NodePath("StaticBody3D/CollisionShape3D2:rotation")
-tracks/126/interp = 1
-tracks/126/loop_wrap = true
-tracks/126/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(-1.5707964, 0, 0)]
-}
-tracks/127/type = "value"
-tracks/127/imported = false
-tracks/127/enabled = true
-tracks/127/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D:rotation")
-tracks/127/interp = 1
-tracks/127/loop_wrap = true
-tracks/127/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/128/type = "value"
-tracks/128/imported = false
-tracks/128/enabled = true
-tracks/128/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D:rotation")
-tracks/128/interp = 1
-tracks/128/loop_wrap = true
-tracks/128/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/129/type = "value"
-tracks/129/imported = false
-tracks/129/enabled = true
-tracks/129/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D2/CSGBox3D:rotation")
-tracks/129/interp = 1
-tracks/129/loop_wrap = true
-tracks/129/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
-}
-tracks/130/type = "value"
-tracks/130/imported = false
-tracks/130/enabled = true
-tracks/130/path = NodePath("CSGCombiner3D/CSGBox3D:rotation")
-tracks/130/interp = 1
-tracks/130/loop_wrap = true
-tracks/130/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(0, 0, 0), Vector3(-1.5707964, 0, 0)]
-}
-tracks/131/type = "value"
-tracks/131/imported = false
-tracks/131/enabled = true
-tracks/131/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D17:rotation")
-tracks/131/interp = 1
-tracks/131/loop_wrap = true
-tracks/131/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector3(-1.3154064, -3.0538044, -1.7954118), Vector3(0.03354575, -1.6129748, -3.0116901)]
-}
-
 [sub_resource type="Animation" id="Animation_viusy"]
 length = 0.001
 tracks/0/type = "value"
@@ -3186,6 +1599,1593 @@ tracks/131/keys = {
 "values": [Vector3(-1.3154064, -3.0538044, -1.7954118)]
 }
 
+[sub_resource type="Animation" id="Animation_vplca"]
+resource_name = "tree_fall"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D5:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.8434238, -12.372879, 11.023016), Vector3(26.340733, -22.601473, 14.314383)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D9:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.2084446, -8.497298, 9.19997), Vector3(22.242952, -24.791014, 13.889795)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D8:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.27135468, -4.559542, 9.56945), Vector3(18.483158, -23.935965, 14.863255)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.7778149, -7.4663305, 4.6755834), Vector3(20.358496, -27.437473, 10.244215)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D10:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.9976959, -8.28721, 1.5324135), Vector3(20.528389, -28.54411, 7.183162)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D14:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.39496994, -5.369603, 7.282471), Vector3(18.821926, -25.248764, 12.731407)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D15:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2522736, -3.8924656, 4.44892), Vector3(16.831764, -26.722752, 10.573723)]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D4:position")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2069035, -11.184992, 3.7237267), Vector3(23.771, -27.409836, 8.481232)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D12:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.9000454, -9.198549, -0.76937485), Vector3(20.949913, -29.126165, 4.812553)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D13:position")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.3799782, -4.5711594, 0.34959996), Vector3(16.669926, -27.982534, 6.6137886)]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.12162661, 1.7033687, 0.42834923), Vector3(-0.12162661, 1.7033687, 0.42834923)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D:position")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D2:position")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D2/CSGBox3D:position")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("StaticBody3D/CollisionShape3D:position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, -1.2218866, -1.5159129)]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("StaticBody3D/CollisionShape3D3:position")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.17104143, 1.6178625, 0.12517834), Vector3(-0.17104143, -1.0967083, -3.1337755)]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11:position")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.4732566, 1.7033687, 0.09687504), Vector3(-0.4732566, 1.7033687, 0.09687504)]
+}
+tracks/17/type = "value"
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2:position")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.19374785, 2.6074793, 0.22449693), Vector3(0.19374785, 2.6074793, 0.22449693)]
+}
+tracks/18/type = "value"
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D2:position")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/19/type = "value"
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D2/CSGBox3D:position")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/20/type = "value"
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D3:position")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.8683834, -13.389944, 4.8459034), Vector3(26.13319, -26.946817, 9.025759)]
+}
+tracks/21/type = "value"
+tracks/21/imported = false
+tracks/21/enabled = true
+tracks/21/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D25:position")
+tracks/21/interp = 1
+tracks/21/loop_wrap = true
+tracks/21/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.216568, -13.876265, 6.012181), Vector3(26.821972, -25.619953, 9.74032)]
+}
+tracks/22/type = "value"
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D11:position")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.7259178, -11.512525, 1.1423272), Vector3(23.57935, -28.621828, 6.1246533)]
+}
+tracks/23/type = "value"
+tracks/23/imported = false
+tracks/23/enabled = true
+tracks/23/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D6:position")
+tracks/23/interp = 1
+tracks/23/loop_wrap = true
+tracks/23/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.10743523, -11.765908, 7.738451), Vector3(25.123604, -25.321556, 11.858906)]
+}
+tracks/24/type = "value"
+tracks/24/imported = false
+tracks/24/enabled = true
+tracks/24/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D7:position")
+tracks/24/interp = 1
+tracks/24/loop_wrap = true
+tracks/24/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.7979889, -15.04028, -0.1021564), Vector3(26.741665, -28.310747, 4.0263953)]
+}
+tracks/25/type = "value"
+tracks/25/imported = false
+tracks/25/enabled = true
+tracks/25/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D24:position")
+tracks/25/interp = 1
+tracks/25/loop_wrap = true
+tracks/25/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.41864967, -14.560014, 2.456952), Vector3(26.782755, -27.229052, 6.4287677)]
+}
+tracks/26/type = "value"
+tracks/26/imported = false
+tracks/26/enabled = true
+tracks/26/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D20:position")
+tracks/26/interp = 1
+tracks/26/loop_wrap = true
+tracks/26/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.900692, -11.860276, -9.816353), Vector3(21.655876, -28.026466, -5.2473707)]
+}
+tracks/27/type = "value"
+tracks/27/imported = false
+tracks/27/enabled = true
+tracks/27/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D19:position")
+tracks/27/interp = 1
+tracks/27/loop_wrap = true
+tracks/27/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.4613838, -11.217662, -7.0201893), Vector3(21.600424, -27.66527, -2.3703365)]
+}
+tracks/28/type = "value"
+tracks/28/imported = false
+tracks/28/enabled = true
+tracks/28/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D23:position")
+tracks/28/interp = 1
+tracks/28/loop_wrap = true
+tracks/28/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(2.7655106, -18.865868, -3.422357), Vector3(29.7327, -26.011042, -0.7942176)]
+}
+tracks/29/type = "value"
+tracks/29/imported = false
+tracks/29/enabled = true
+tracks/29/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D22:position")
+tracks/29/interp = 1
+tracks/29/loop_wrap = true
+tracks/29/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.789854, -16.75502, -2.3776166), Vector3(27.90777, -26.52613, 0.85721445)]
+}
+tracks/30/type = "value"
+tracks/30/imported = false
+tracks/30/enabled = true
+tracks/30/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D21:position")
+tracks/30/interp = 1
+tracks/30/loop_wrap = true
+tracks/30/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.0707054, -14.391888, -3.3640125), Vector3(25.425478, -27.311256, 0.5733175)]
+}
+tracks/31/type = "value"
+tracks/31/imported = false
+tracks/31/enabled = true
+tracks/31/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D2:position")
+tracks/31/interp = 1
+tracks/31/loop_wrap = true
+tracks/31/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/32/type = "value"
+tracks/32/imported = false
+tracks/32/enabled = true
+tracks/32/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9:position")
+tracks/32/interp = 1
+tracks/32/loop_wrap = true
+tracks/32/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.48215607, 1.7033687, 0.012407064), Vector3(0.48215607, 1.7033687, 0.012407064)]
+}
+tracks/33/type = "value"
+tracks/33/imported = false
+tracks/33/enabled = true
+tracks/33/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D2:position")
+tracks/33/interp = 1
+tracks/33/loop_wrap = true
+tracks/33/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/34/type = "value"
+tracks/34/imported = false
+tracks/34/enabled = true
+tracks/34/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D:position")
+tracks/34/interp = 1
+tracks/34/loop_wrap = true
+tracks/34/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/35/type = "value"
+tracks/35/imported = false
+tracks/35/enabled = true
+tracks/35/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D2/CSGBox3D:position")
+tracks/35/interp = 1
+tracks/35/loop_wrap = true
+tracks/35/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/36/type = "value"
+tracks/36/imported = false
+tracks/36/enabled = true
+tracks/36/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D6:position")
+tracks/36/interp = 1
+tracks/36/loop_wrap = true
+tracks/36/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 1.4610116, 0), Vector3(0, 1.4610116, 0)]
+}
+tracks/37/type = "value"
+tracks/37/imported = false
+tracks/37/enabled = true
+tracks/37/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D2:position")
+tracks/37/interp = 1
+tracks/37/loop_wrap = true
+tracks/37/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/38/type = "value"
+tracks/38/imported = false
+tracks/38/enabled = true
+tracks/38/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3:position")
+tracks/38/interp = 1
+tracks/38/loop_wrap = true
+tracks/38/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.4732566, 1.7033687, -0.2682161), Vector3(-0.4732566, 1.7033687, -0.2682161)]
+}
+tracks/39/type = "value"
+tracks/39/imported = false
+tracks/39/enabled = true
+tracks/39/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D2:position")
+tracks/39/interp = 1
+tracks/39/loop_wrap = true
+tracks/39/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/40/type = "value"
+tracks/40/imported = false
+tracks/40/enabled = true
+tracks/40/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5:position")
+tracks/40/interp = 1
+tracks/40/loop_wrap = true
+tracks/40/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.24432272, 1.7033687, -0.4074662), Vector3(0.24432272, 1.7033687, -0.4074662)]
+}
+tracks/41/type = "value"
+tracks/41/imported = false
+tracks/41/enabled = true
+tracks/41/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D:position")
+tracks/41/interp = 1
+tracks/41/loop_wrap = true
+tracks/41/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/42/type = "value"
+tracks/42/imported = false
+tracks/42/enabled = true
+tracks/42/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D2/CSGBox3D:position")
+tracks/42/interp = 1
+tracks/42/loop_wrap = true
+tracks/42/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/43/type = "value"
+tracks/43/imported = false
+tracks/43/enabled = true
+tracks/43/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D:position")
+tracks/43/interp = 1
+tracks/43/loop_wrap = true
+tracks/43/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/44/type = "value"
+tracks/44/imported = false
+tracks/44/enabled = true
+tracks/44/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D2/CSGBox3D:position")
+tracks/44/interp = 1
+tracks/44/loop_wrap = true
+tracks/44/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/45/type = "value"
+tracks/45/imported = false
+tracks/45/enabled = true
+tracks/45/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D2:position")
+tracks/45/interp = 1
+tracks/45/loop_wrap = true
+tracks/45/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/46/type = "value"
+tracks/46/imported = false
+tracks/46/enabled = true
+tracks/46/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D2:position")
+tracks/46/interp = 1
+tracks/46/loop_wrap = true
+tracks/46/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/47/type = "value"
+tracks/47/imported = false
+tracks/47/enabled = true
+tracks/47/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D2/CSGBox3D:position")
+tracks/47/interp = 1
+tracks/47/loop_wrap = true
+tracks/47/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/48/type = "value"
+tracks/48/imported = false
+tracks/48/enabled = true
+tracks/48/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D16:position")
+tracks/48/interp = 1
+tracks/48/loop_wrap = true
+tracks/48/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-2.2045326, -7.2152214, -3.5087368), Vector3(18.47767, -30.000753, 2.6919706)]
+}
+tracks/49/type = "value"
+tracks/49/imported = false
+tracks/49/enabled = true
+tracks/49/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D26:position")
+tracks/49/interp = 1
+tracks/49/loop_wrap = true
+tracks/49/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(1.6449108, -15.810928, 1.4556652), Vector3(27.762827, -25.582039, 4.690494)]
+}
+tracks/50/type = "value"
+tracks/50/imported = false
+tracks/50/enabled = true
+tracks/50/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D18:position")
+tracks/50/interp = 1
+tracks/50/loop_wrap = true
+tracks/50/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.57403564, -9.820651, -4.1265354), Vector3(20.858046, -28.77302, 1.1722164)]
+}
+tracks/51/type = "value"
+tracks/51/imported = false
+tracks/51/enabled = true
+tracks/51/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D2/CSGBox3D:position")
+tracks/51/interp = 1
+tracks/51/loop_wrap = true
+tracks/51/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/52/type = "value"
+tracks/52/imported = false
+tracks/52/enabled = true
+tracks/52/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7:position")
+tracks/52/interp = 1
+tracks/52/loop_wrap = true
+tracks/52/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.2011728, 2.6074793, 0.05001217), Vector3(-0.2011728, 2.6074793, 0.05001217)]
+}
+tracks/53/type = "value"
+tracks/53/imported = false
+tracks/53/enabled = true
+tracks/53/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D:position")
+tracks/53/interp = 1
+tracks/53/loop_wrap = true
+tracks/53/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/54/type = "value"
+tracks/54/imported = false
+tracks/54/enabled = true
+tracks/54/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D2:position")
+tracks/54/interp = 1
+tracks/54/loop_wrap = true
+tracks/54/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/55/type = "value"
+tracks/55/imported = false
+tracks/55/enabled = true
+tracks/55/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10:position")
+tracks/55/interp = 1
+tracks/55/loop_wrap = true
+tracks/55/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.24723378, 2.6074793, -0.23001727), Vector3(-0.24723378, 2.6074793, -0.23001727)]
+}
+tracks/56/type = "value"
+tracks/56/imported = false
+tracks/56/enabled = true
+tracks/56/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8:position")
+tracks/56/interp = 1
+tracks/56/loop_wrap = true
+tracks/56/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.06648712, 2.6074793, -0.23001735), Vector3(0.06648712, 2.6074793, -0.23001735)]
+}
+tracks/57/type = "value"
+tracks/57/imported = false
+tracks/57/enabled = true
+tracks/57/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D:position")
+tracks/57/interp = 1
+tracks/57/loop_wrap = true
+tracks/57/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/58/type = "value"
+tracks/58/imported = false
+tracks/58/enabled = true
+tracks/58/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D2/CSGBox3D:position")
+tracks/58/interp = 1
+tracks/58/loop_wrap = true
+tracks/58/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/59/type = "value"
+tracks/59/imported = false
+tracks/59/enabled = true
+tracks/59/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D:position")
+tracks/59/interp = 1
+tracks/59/loop_wrap = true
+tracks/59/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/60/type = "value"
+tracks/60/imported = false
+tracks/60/enabled = true
+tracks/60/path = NodePath("StaticBody3D/CollisionShape3D2:position")
+tracks/60/interp = 1
+tracks/60/loop_wrap = true
+tracks/60/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 1.1297746, 0), Vector3(0, -1.2218866, -2.6456876)]
+}
+tracks/61/type = "value"
+tracks/61/imported = false
+tracks/61/enabled = true
+tracks/61/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D:position")
+tracks/61/interp = 1
+tracks/61/loop_wrap = true
+tracks/61/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/62/type = "value"
+tracks/62/imported = false
+tracks/62/enabled = true
+tracks/62/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D:position")
+tracks/62/interp = 1
+tracks/62/loop_wrap = true
+tracks/62/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/63/type = "value"
+tracks/63/imported = false
+tracks/63/enabled = true
+tracks/63/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D2/CSGBox3D:position")
+tracks/63/interp = 1
+tracks/63/loop_wrap = true
+tracks/63/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.4821561, 1.7033687, 0.012407064), Vector3(0.4821561, 1.7033687, 0.012407064)]
+}
+tracks/64/type = "value"
+tracks/64/imported = false
+tracks/64/enabled = true
+tracks/64/path = NodePath("CSGCombiner3D/CSGBox3D:position")
+tracks/64/interp = 1
+tracks/64/loop_wrap = true
+tracks/64/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.051674366, 0.7301356, 0.27177405), Vector3(-0.051674366, 0.0992496, -0.6491399)]
+}
+tracks/65/type = "value"
+tracks/65/imported = false
+tracks/65/enabled = true
+tracks/65/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D17:position")
+tracks/65/interp = 1
+tracks/65/loop_wrap = true
+tracks/65/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.18244171, -0.47561073, -0.1480267), Vector3(12.564676, -26.293728, 6.5089993)]
+}
+tracks/66/type = "value"
+tracks/66/imported = false
+tracks/66/enabled = true
+tracks/66/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D5:rotation")
+tracks/66/interp = 1
+tracks/66/loop_wrap = true
+tracks/66/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2974093, -1.0174259, 3.0870414), Vector3(0.13164508, -1.1734239, -2.370956)]
+}
+tracks/67/type = "value"
+tracks/67/imported = false
+tracks/67/enabled = true
+tracks/67/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D9:rotation")
+tracks/67/interp = 1
+tracks/67/loop_wrap = true
+tracks/67/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2974093, -1.0174259, 3.0870414), Vector3(0.13164508, -1.1734239, -2.370956)]
+}
+tracks/68/type = "value"
+tracks/68/imported = false
+tracks/68/enabled = true
+tracks/68/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D8:rotation")
+tracks/68/interp = 1
+tracks/68/loop_wrap = true
+tracks/68/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.8109946, -2.8767512, -1.403968), Vector3(0.3120788, -2.0483224, -2.5371552)]
+}
+tracks/69/type = "value"
+tracks/69/imported = false
+tracks/69/enabled = true
+tracks/69/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D2:rotation")
+tracks/69/interp = 1
+tracks/69/loop_wrap = true
+tracks/69/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2684891, -2.2664177, -1.9582894), Vector3(0.21907847, -1.5013318, -2.4003742)]
+}
+tracks/70/type = "value"
+tracks/70/imported = false
+tracks/70/enabled = true
+tracks/70/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D10:rotation")
+tracks/70/interp = 1
+tracks/70/loop_wrap = true
+tracks/70/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2165185, -2.382639, -2.4421122), Vector3(0.2464327, -1.5607911, -3.0079813)]
+}
+tracks/71/type = "value"
+tracks/71/imported = false
+tracks/71/enabled = true
+tracks/71/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D14:rotation")
+tracks/71/interp = 1
+tracks/71/loop_wrap = true
+tracks/71/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.8109945, -2.876751, -1.4039681), Vector3(0.31207907, -2.0483224, -2.537155)]
+}
+tracks/72/type = "value"
+tracks/72/imported = false
+tracks/72/enabled = true
+tracks/72/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D15:rotation")
+tracks/72/interp = 1
+tracks/72/loop_wrap = true
+tracks/72/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.19383176, -3.0409803, -1.2760732), Vector3(0.3456975, -2.7173157, -2.7160141)]
+}
+tracks/73/type = "value"
+tracks/73/imported = false
+tracks/73/enabled = true
+tracks/73/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D4:rotation")
+tracks/73/interp = 1
+tracks/73/loop_wrap = true
+tracks/73/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2974093, -1.0174259, 3.0870414), Vector3(0.13164508, -1.1734239, -2.370956)]
+}
+tracks/74/type = "value"
+tracks/74/imported = false
+tracks/74/enabled = true
+tracks/74/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D12:rotation")
+tracks/74/interp = 1
+tracks/74/loop_wrap = true
+tracks/74/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2165185, -2.382639, -2.4421122), Vector3(0.2464327, -1.5607911, -3.0079813)]
+}
+tracks/75/type = "value"
+tracks/75/imported = false
+tracks/75/enabled = true
+tracks/75/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D13:rotation")
+tracks/75/interp = 1
+tracks/75/loop_wrap = true
+tracks/75/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2353547, 2.7955933, -1.2918847), Vector3(-0.07908321, -1.7087783, -2.9218445)]
+}
+tracks/76/type = "value"
+tracks/76/imported = false
+tracks/76/enabled = true
+tracks/76/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4:rotation")
+tracks/76/interp = 1
+tracks/76/loop_wrap = true
+tracks/76/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-6.245697e-08, -1.8125942, -0.57189226), Vector3(-6.245697e-08, -1.8125942, -0.57189226)]
+}
+tracks/77/type = "value"
+tracks/77/imported = false
+tracks/77/enabled = true
+tracks/77/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D:rotation")
+tracks/77/interp = 1
+tracks/77/loop_wrap = true
+tracks/77/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/78/type = "value"
+tracks/78/imported = false
+tracks/78/enabled = true
+tracks/78/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D2:rotation")
+tracks/78/interp = 1
+tracks/78/loop_wrap = true
+tracks/78/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/79/type = "value"
+tracks/79/imported = false
+tracks/79/enabled = true
+tracks/79/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D4/CSGBox3D2/CSGBox3D:rotation")
+tracks/79/interp = 1
+tracks/79/loop_wrap = true
+tracks/79/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/80/type = "value"
+tracks/80/imported = false
+tracks/80/enabled = true
+tracks/80/path = NodePath("StaticBody3D/CollisionShape3D:rotation")
+tracks/80/interp = 1
+tracks/80/loop_wrap = true
+tracks/80/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-1.5707964, 0, 0)]
+}
+tracks/81/type = "value"
+tracks/81/imported = false
+tracks/81/enabled = true
+tracks/81/path = NodePath("StaticBody3D/CollisionShape3D3:rotation")
+tracks/81/interp = 1
+tracks/81/loop_wrap = true
+tracks/81/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-1.5707964, 0, 0)]
+}
+tracks/82/type = "value"
+tracks/82/imported = false
+tracks/82/enabled = true
+tracks/82/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11:rotation")
+tracks/82/interp = 1
+tracks/82/loop_wrap = true
+tracks/82/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(2.7892938e-08, -2.8406281, -0.5718924), Vector3(2.7892938e-08, -2.8406281, -0.5718924)]
+}
+tracks/83/type = "value"
+tracks/83/imported = false
+tracks/83/enabled = true
+tracks/83/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2:rotation")
+tracks/83/interp = 1
+tracks/83/loop_wrap = true
+tracks/83/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.4819103e-08, -0.8636762, -0.5718922), Vector3(-1.4819103e-08, -0.8636762, -0.5718922)]
+}
+tracks/84/type = "value"
+tracks/84/imported = false
+tracks/84/enabled = true
+tracks/84/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D2:rotation")
+tracks/84/interp = 1
+tracks/84/loop_wrap = true
+tracks/84/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/85/type = "value"
+tracks/85/imported = false
+tracks/85/enabled = true
+tracks/85/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D2/CSGBox3D:rotation")
+tracks/85/interp = 1
+tracks/85/loop_wrap = true
+tracks/85/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/86/type = "value"
+tracks/86/imported = false
+tracks/86/enabled = true
+tracks/86/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D3:rotation")
+tracks/86/interp = 1
+tracks/86/loop_wrap = true
+tracks/86/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.8404311, -0.04852044, 2.3470464), Vector3(-0.18466872, -0.648638, -2.2406049)]
+}
+tracks/87/type = "value"
+tracks/87/imported = false
+tracks/87/enabled = true
+tracks/87/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D25:rotation")
+tracks/87/interp = 1
+tracks/87/loop_wrap = true
+tracks/87/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.1416883, -0.58968896, 2.641887), Vector3(0.08277792, -0.96673995, -2.3903775)]
+}
+tracks/88/type = "value"
+tracks/88/imported = false
+tracks/88/enabled = true
+tracks/88/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D11:rotation")
+tracks/88/interp = 1
+tracks/88/loop_wrap = true
+tracks/88/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2165185, -2.382639, -2.4421122), Vector3(0.2464327, -1.5607911, -3.0079813)]
+}
+tracks/89/type = "value"
+tracks/89/imported = false
+tracks/89/enabled = true
+tracks/89/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D6:rotation")
+tracks/89/interp = 1
+tracks/89/loop_wrap = true
+tracks/89/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.1416885, -0.58968914, 2.6418872), Vector3(0.08277812, -0.9667401, -2.3903773)]
+}
+tracks/90/type = "value"
+tracks/90/imported = false
+tracks/90/enabled = true
+tracks/90/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D7:rotation")
+tracks/90/interp = 1
+tracks/90/loop_wrap = true
+tracks/90/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.074033976, -0.17893109, 1.9169407), Vector3(-0.08072701, 0.2762563, -2.8570142)]
+}
+tracks/91/type = "value"
+tracks/91/imported = false
+tracks/91/enabled = true
+tracks/91/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D24:rotation")
+tracks/91/interp = 1
+tracks/91/loop_wrap = true
+tracks/91/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.97895986, -2.2971177, -2.4948373), Vector3(0.46988145, -1.6561801, -3.0176983)]
+}
+tracks/92/type = "value"
+tracks/92/imported = false
+tracks/92/enabled = true
+tracks/92/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D20:rotation")
+tracks/92/interp = 1
+tracks/92/loop_wrap = true
+tracks/92/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.3154067, -3.0538044, -1.7954118), Vector3(0.033545658, -1.6129745, -3.01169)]
+}
+tracks/93/type = "value"
+tracks/93/imported = false
+tracks/93/enabled = true
+tracks/93/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D19:rotation")
+tracks/93/interp = 1
+tracks/93/loop_wrap = true
+tracks/93/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.3154067, -3.0538044, -1.7954118), Vector3(0.033545643, -1.6129745, -3.0116901)]
+}
+tracks/94/type = "value"
+tracks/94/imported = false
+tracks/94/enabled = true
+tracks/94/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D23:rotation")
+tracks/94/interp = 1
+tracks/94/loop_wrap = true
+tracks/94/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.22228248, -0.1268376, 1.9230256), Vector3(-0.14596532, -0.019351488, -2.813333)]
+}
+tracks/95/type = "value"
+tracks/95/imported = false
+tracks/95/enabled = true
+tracks/95/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D22:rotation")
+tracks/95/interp = 1
+tracks/95/loop_wrap = true
+tracks/95/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.22228253, -0.12683757, 1.9230256), Vector3(-0.14596532, -0.01935152, -2.8133333)]
+}
+tracks/96/type = "value"
+tracks/96/imported = false
+tracks/96/enabled = true
+tracks/96/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D21:rotation")
+tracks/96/interp = 1
+tracks/96/loop_wrap = true
+tracks/96/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0.07403395, -0.17893106, 1.9169407), Vector3(-0.0807271, 0.27625638, -2.8570142)]
+}
+tracks/97/type = "value"
+tracks/97/imported = false
+tracks/97/enabled = true
+tracks/97/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D2:rotation")
+tracks/97/interp = 1
+tracks/97/loop_wrap = true
+tracks/97/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/98/type = "value"
+tracks/98/imported = false
+tracks/98/enabled = true
+tracks/98/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9:rotation")
+tracks/98/interp = 1
+tracks/98/loop_wrap = true
+tracks/98/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.57189214), Vector3(0, 0, -0.57189214)]
+}
+tracks/99/type = "value"
+tracks/99/imported = false
+tracks/99/enabled = true
+tracks/99/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D2:rotation")
+tracks/99/interp = 1
+tracks/99/loop_wrap = true
+tracks/99/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/100/type = "value"
+tracks/100/imported = false
+tracks/100/enabled = true
+tracks/100/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D11/CSGBox3D:rotation")
+tracks/100/interp = 1
+tracks/100/loop_wrap = true
+tracks/100/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/101/type = "value"
+tracks/101/imported = false
+tracks/101/enabled = true
+tracks/101/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D2/CSGBox3D:rotation")
+tracks/101/interp = 1
+tracks/101/loop_wrap = true
+tracks/101/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/102/type = "value"
+tracks/102/imported = false
+tracks/102/enabled = true
+tracks/102/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D6:rotation")
+tracks/102/interp = 1
+tracks/102/loop_wrap = true
+tracks/102/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0, 0)]
+}
+tracks/103/type = "value"
+tracks/103/imported = false
+tracks/103/enabled = true
+tracks/103/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D2:rotation")
+tracks/103/interp = 1
+tracks/103/loop_wrap = true
+tracks/103/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/104/type = "value"
+tracks/104/imported = false
+tracks/104/enabled = true
+tracks/104/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3:rotation")
+tracks/104/interp = 1
+tracks/104/loop_wrap = true
+tracks/104/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.852249e-08, 2.655693, -0.5718923), Vector3(-1.852249e-08, 2.655693, -0.5718923)]
+}
+tracks/105/type = "value"
+tracks/105/imported = false
+tracks/105/enabled = true
+tracks/105/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D2:rotation")
+tracks/105/interp = 1
+tracks/105/loop_wrap = true
+tracks/105/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/106/type = "value"
+tracks/106/imported = false
+tracks/106/enabled = true
+tracks/106/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5:rotation")
+tracks/106/interp = 1
+tracks/106/loop_wrap = true
+tracks/106/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-5.056052e-08, 0.9886941, -0.57189244), Vector3(-5.056052e-08, 0.9886941, -0.57189244)]
+}
+tracks/107/type = "value"
+tracks/107/imported = false
+tracks/107/enabled = true
+tracks/107/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D:rotation")
+tracks/107/interp = 1
+tracks/107/loop_wrap = true
+tracks/107/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/108/type = "value"
+tracks/108/imported = false
+tracks/108/enabled = true
+tracks/108/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D2/CSGBox3D:rotation")
+tracks/108/interp = 1
+tracks/108/loop_wrap = true
+tracks/108/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/109/type = "value"
+tracks/109/imported = false
+tracks/109/enabled = true
+tracks/109/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D:rotation")
+tracks/109/interp = 1
+tracks/109/loop_wrap = true
+tracks/109/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/110/type = "value"
+tracks/110/imported = false
+tracks/110/enabled = true
+tracks/110/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D2/CSGBox3D:rotation")
+tracks/110/interp = 1
+tracks/110/loop_wrap = true
+tracks/110/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/111/type = "value"
+tracks/111/imported = false
+tracks/111/enabled = true
+tracks/111/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D5/CSGBox3D2:rotation")
+tracks/111/interp = 1
+tracks/111/loop_wrap = true
+tracks/111/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/112/type = "value"
+tracks/112/imported = false
+tracks/112/enabled = true
+tracks/112/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8/CSGBox3D2:rotation")
+tracks/112/interp = 1
+tracks/112/loop_wrap = true
+tracks/112/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/113/type = "value"
+tracks/113/imported = false
+tracks/113/enabled = true
+tracks/113/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D2/CSGBox3D:rotation")
+tracks/113/interp = 1
+tracks/113/loop_wrap = true
+tracks/113/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/114/type = "value"
+tracks/114/imported = false
+tracks/114/enabled = true
+tracks/114/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D16:rotation")
+tracks/114/interp = 1
+tracks/114/loop_wrap = true
+tracks/114/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.3154064, -3.0538044, -1.7954118), Vector3(0.03354575, -1.6129748, -3.0116901)]
+}
+tracks/115/type = "value"
+tracks/115/imported = false
+tracks/115/enabled = true
+tracks/115/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D26:rotation")
+tracks/115/interp = 1
+tracks/115/loop_wrap = true
+tracks/115/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.30250704, -0.15572993, 2.0770476), Vector3(-0.119836666, -0.100890234, -2.6560004)]
+}
+tracks/116/type = "value"
+tracks/116/imported = false
+tracks/116/enabled = true
+tracks/116/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D18:rotation")
+tracks/116/interp = 1
+tracks/116/loop_wrap = true
+tracks/116/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2353548, 2.7955933, -1.2918845), Vector3(-0.07908309, -1.7087781, -2.9218442)]
+}
+tracks/117/type = "value"
+tracks/117/imported = false
+tracks/117/enabled = true
+tracks/117/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D2/CSGBox3D:rotation")
+tracks/117/interp = 1
+tracks/117/loop_wrap = true
+tracks/117/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/118/type = "value"
+tracks/118/imported = false
+tracks/118/enabled = true
+tracks/118/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7:rotation")
+tracks/118/interp = 1
+tracks/118/loop_wrap = true
+tracks/118/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.0424171e-08, -2.853561, -0.57189214), Vector3(-1.0424171e-08, -2.853561, -0.57189214)]
+}
+tracks/119/type = "value"
+tracks/119/imported = false
+tracks/119/enabled = true
+tracks/119/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D:rotation")
+tracks/119/interp = 1
+tracks/119/loop_wrap = true
+tracks/119/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/120/type = "value"
+tracks/120/imported = false
+tracks/120/enabled = true
+tracks/120/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10/CSGBox3D2:rotation")
+tracks/120/interp = 1
+tracks/120/loop_wrap = true
+tracks/120/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/121/type = "value"
+tracks/121/imported = false
+tracks/121/enabled = true
+tracks/121/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D10:rotation")
+tracks/121/interp = 1
+tracks/121/loop_wrap = true
+tracks/121/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.2064142e-07, 2.2786846, -0.57189214), Vector3(-1.2064142e-07, 2.2786846, -0.57189214)]
+}
+tracks/122/type = "value"
+tracks/122/imported = false
+tracks/122/enabled = true
+tracks/122/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D8:rotation")
+tracks/122/interp = 1
+tracks/122/loop_wrap = true
+tracks/122/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.0556932e-07, 1.3518797, -0.5718921), Vector3(-1.0556932e-07, 1.3518797, -0.5718921)]
+}
+tracks/123/type = "value"
+tracks/123/imported = false
+tracks/123/enabled = true
+tracks/123/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D:rotation")
+tracks/123/interp = 1
+tracks/123/loop_wrap = true
+tracks/123/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/124/type = "value"
+tracks/124/imported = false
+tracks/124/enabled = true
+tracks/124/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D3/CSGBox3D2/CSGBox3D:rotation")
+tracks/124/interp = 1
+tracks/124/loop_wrap = true
+tracks/124/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/125/type = "value"
+tracks/125/imported = false
+tracks/125/enabled = true
+tracks/125/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D7/CSGBox3D:rotation")
+tracks/125/interp = 1
+tracks/125/loop_wrap = true
+tracks/125/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/126/type = "value"
+tracks/126/imported = false
+tracks/126/enabled = true
+tracks/126/path = NodePath("StaticBody3D/CollisionShape3D2:rotation")
+tracks/126/interp = 1
+tracks/126/loop_wrap = true
+tracks/126/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-1.5707964, 0, 0)]
+}
+tracks/127/type = "value"
+tracks/127/imported = false
+tracks/127/enabled = true
+tracks/127/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D:rotation")
+tracks/127/interp = 1
+tracks/127/loop_wrap = true
+tracks/127/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/128/type = "value"
+tracks/128/imported = false
+tracks/128/enabled = true
+tracks/128/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D9/CSGBox3D:rotation")
+tracks/128/interp = 1
+tracks/128/loop_wrap = true
+tracks/128/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/129/type = "value"
+tracks/129/imported = false
+tracks/129/enabled = true
+tracks/129/path = NodePath("CSGCombiner3D/CSGBox3D/CSGBox3D2/CSGBox3D2/CSGBox3D:rotation")
+tracks/129/interp = 1
+tracks/129/loop_wrap = true
+tracks/129/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, -0.5718921), Vector3(0, 0, -0.5718921)]
+}
+tracks/130/type = "value"
+tracks/130/imported = false
+tracks/130/enabled = true
+tracks/130/path = NodePath("CSGCombiner3D/CSGBox3D:rotation")
+tracks/130/interp = 1
+tracks/130/loop_wrap = true
+tracks/130/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-1.5707964, 0, 0)]
+}
+tracks/131/type = "value"
+tracks/131/imported = false
+tracks/131/enabled = true
+tracks/131/path = NodePath("CSGCombiner3D/CSGCombiner3D/CSGBox3D17:rotation")
+tracks/131/interp = 1
+tracks/131/loop_wrap = true
+tracks/131/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1.3154064, -3.0538044, -1.7954118), Vector3(0.03354575, -1.6129748, -3.0116901)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qd6xs"]
 _data = {
 &"RESET": SubResource("Animation_viusy"),
@@ -3195,6 +3195,8 @@ _data = {
 [node name="Tree" type="Node3D" groups=["trees"]]
 
 [node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+use_collision = true
+collision_layer = 2
 
 [node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
 transform = Transform3D(0.8681089, 0, 0, 0, 0.8681089, 0, 0, 0, 0.8681089, -0.051674366, 0.7301356, 0.27177405)
@@ -3207,7 +3209,7 @@ size = Vector3(0.4380188, 2.4442139, 0.460083)
 material = ExtResource("1_vplca")
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D/CSGBox3D"]
-transform = Transform3D(0.1910052, 0.121593356, -0.26467782, -0.18923944, 0.29079595, 5.1593037e-09, 0.22351985, 0.14229207, 0.22617608, 0.19374785, 2.6074793, 0.22449693)
+transform = Transform3D(0.19100519, 0.121593356, -0.26467782, -0.18923943, 0.29079595, 5.1593037e-09, 0.22351983, 0.14229207, 0.22617608, 0.19374785, 2.6074793, 0.22449693)
 size = Vector3(0.4380188, 2.682129, 0.460083)
 material = ExtResource("1_vplca")
 
@@ -3247,7 +3249,7 @@ size = Vector3(0.4380188, 2.682129, 0.460083)
 material = ExtResource("1_vplca")
 
 [node name="CSGBox3D10" type="CSGBox3D" parent="CSGCombiner3D/CSGBox3D"]
-transform = Transform3D(-0.10592701, -0.086772345, 0.14445408, -0.104853526, 0.20733362, 2.2938403e-08, -0.123766266, -0.10138568, -0.123632975, -0.24723378, 2.6074793, -0.23001727)
+transform = Transform3D(-0.10592701, -0.086772345, 0.14445408, -0.104853526, 0.20733364, 2.2938403e-08, -0.123766266, -0.10138569, -0.123632975, -0.24723378, 2.6074793, -0.23001727)
 size = Vector3(0.4380188, 2.682129, 0.460083)
 material = ExtResource("1_vplca")
 
@@ -3323,7 +3325,7 @@ transform = Transform3D(0.4799495, 0.30553433, 0, -0.3089153, 0.47469664, 0, 0, 
 size = Vector3(0.4380188, 2.682129, 0.460083)
 
 [node name="CSGBox3D11" type="CSGBox3D" parent="CSGCombiner3D/CSGBox3D"]
-transform = Transform3D(-0.45837596, -0.2918009, -0.16847518, -0.3089153, 0.47469637, -1.585226e-08, 0.14227687, 0.09057304, -0.54277956, -0.4732566, 1.7033687, 0.09687504)
+transform = Transform3D(-0.45837602, -0.2918009, -0.16847518, -0.30891532, 0.47469637, -1.585226e-08, 0.14227688, 0.09057304, -0.54277956, -0.4732566, 1.7033687, 0.09687504)
 material_override = ExtResource("1_avsvi")
 size = Vector3(0.4380188, 2.682129, 0.460083)
 material = ExtResource("1_vplca")
@@ -3392,7 +3394,7 @@ size = Vector3(1, 0.42871094, 1.2109375)
 material = ExtResource("1_avsvi")
 
 [node name="CSGBox3D18" type="CSGBox3D" parent="CSGCombiner3D/CSGCombiner3D"]
-transform = Transform3D(0.30683163, -6.243185, 0.7037322, -1.9870976, 0.570057, 5.952297, -5.94842, -0.51246625, -1.9520929, -0.57403564, -9.820651, -4.1265354)
+transform = Transform3D(0.30683163, -6.243186, 0.70373225, -1.9870976, 0.57005703, 5.9522977, -5.94842, -0.5124663, -1.952093, -0.57403564, -9.820651, -4.1265354)
 size = Vector3(1, 0.42871094, 1.2109375)
 material = ExtResource("1_avsvi")
 
@@ -3412,7 +3414,7 @@ size = Vector3(1, 0.42016602, 1)
 material = ExtResource("1_avsvi")
 
 [node name="CSGBox3D24" type="CSGBox3D" parent="CSGCombiner3D/CSGCombiner3D"]
-transform = Transform3D(0.6350599, -3.6221051, -1.7139974, -1.3676236, -1.8010911, 3.4104934, -3.7783267, 0.043130435, -1.5225686, -0.41864967, -14.560014, 2.456952)
+transform = Transform3D(0.6350599, -3.6221051, -1.7139972, -1.3676236, -1.8010911, 3.4104931, -3.7783267, 0.043130435, -1.5225685, -0.41864967, -14.560014, 2.456952)
 size = Vector3(1, 0.42016602, 1)
 material = ExtResource("1_avsvi")
 
@@ -3437,7 +3439,7 @@ size = Vector3(0.9498291, 0.42016602, 1)
 material = ExtResource("1_avsvi")
 
 [node name="CSGBox3D20" type="CSGBox3D" parent="CSGCombiner3D/CSGCombiner3D"]
-transform = Transform3D(0.35628, -2.5203018, -0.057276618, -0.63046265, -0.14323926, 2.502114, -2.4554172, -0.3289161, -0.6507636, 1.900692, -11.860276, -9.816353)
+transform = Transform3D(0.35627997, -2.5203016, -0.057276618, -0.6304626, -0.14323924, 2.502114, -2.455417, -0.32891607, -0.6507636, 1.900692, -11.860276, -9.816353)
 size = Vector3(0.9498291, 0.42016602, 1)
 material = ExtResource("1_avsvi")
 
@@ -3447,7 +3449,7 @@ size = Vector3(1, 0.42016602, 1)
 material = ExtResource("1_avsvi")
 
 [node name="CSGBox3D14" type="CSGBox3D" parent="CSGCombiner3D/CSGCombiner3D"]
-transform = Transform3D(-1.4107414, -3.746167, -0.73763573, -2.7582157, 0.4656145, 2.9661076, -2.6254253, 1.5237945, -2.7197692, -0.39496994, -5.369603, 7.282471)
+transform = Transform3D(-1.4107414, -3.746167, -0.73763585, -2.7582157, 0.4656145, 2.9661078, -2.6254253, 1.5237945, -2.7197697, -0.39496994, -5.369603, 7.282471)
 size = Vector3(1, 0.42016602, 1)
 material = ExtResource("1_avsvi")
 
@@ -3482,7 +3484,7 @@ size = Vector3(1, 0.42016602, 1)
 material = ExtResource("1_avsvi")
 
 [node name="CSGBox3D23" type="CSGBox3D" parent="CSGCombiner3D/CSGCombiner3D"]
-transform = Transform3D(-0.77655226, -2.270251, -0.29927525, 2.249505, -0.81211585, 0.5347239, -0.61157197, -0.10446869, 2.3468487, 2.7655106, -18.865868, -3.422357)
+transform = Transform3D(-0.7765523, -2.270251, -0.29927525, 2.2495053, -0.81211585, 0.5347239, -0.611572, -0.10446869, 2.3468487, 2.7655106, -18.865868, -3.422357)
 size = Vector3(1, 0.42016602, 1)
 material = ExtResource("1_avsvi")
 
