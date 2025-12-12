@@ -1,12 +1,12 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765473175
+::res://::1765523315
 icon.svg::CompressedTexture2D::978719341439678647::1765307805::1765307969::1::::<><><>0<>0<>7173815a4e1f8a318a64a29e684d2b69<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene::5693815955876668973::1765456730::0::1::::<><><>0<>0<><>::uid://bs72ogkvdd7d6::::res://addons/proto_controller/proto_controller.tscn<>uid://bl17lpr87ahx1::::res://scenes/tree.tscn<>uid://bwjv6oruukmn2::::res://scripts/tree.gd<>uid://l1r7o4pf05ei::::res://scenes/tree_log.tscn<>uid://ch3n6odsoymoa::::res://scenes/chest.tscn<>uid://dcelup8qxyhr::::res://sfx/chopping-wood-96709.mp3
+main.tscn::PackedScene::5693815955876668973::1765482465::0::1::::<><><>0<>0<><>::uid://bs72ogkvdd7d6::::res://addons/proto_controller/proto_controller.tscn<>uid://bl17lpr87ahx1::::res://scenes/tree.tscn<>uid://bwjv6oruukmn2::::res://scripts/tree.gd<>uid://l1r7o4pf05ei::::res://scenes/tree_log.tscn<>uid://ch3n6odsoymoa::::res://scenes/chest.tscn<>uid://dcelup8qxyhr::::res://sfx/chopping-wood-96709.mp3
 README.md::TextFile::-1::1765307805::0::1::::<><><>0<>0<><>::
 ::res://addons/::1765307805
-::res://addons/proto_controller/::1765456856
-proto_controller.gd::GDScript::4346621539400993354::1765456856::0::1::::<>CharacterBody3D<><>0<>0<><>::
-proto_controller.tscn::PackedScene::3717544648773412845::1765456064::0::1::::<><><>0<>0<><>::uid://b26shsj42t62q::::res://addons/proto_controller/proto_controller.gd<>uid://gddnun8l8pk6::::res://models/Axe.glb
+::res://addons/proto_controller/::1765475039
+proto_controller.gd::GDScript::4346621539400993354::1765475039::0::1::::<>CharacterBody3D<><>0<>0<><>::
+proto_controller.tscn::PackedScene::3717544648773412845::1765473735::0::1::::<><><>0<>0<><>::uid://b26shsj42t62q::::res://addons/proto_controller/proto_controller.gd<>uid://gddnun8l8pk6::::res://models/Axe.glb
 ::res://models/::1765362148
 Axe.glb::PackedScene::427532633454280391::1765362147::1765362147::1::::<><><>0<>0<>605267fa011ad84e34e9408e89ea2106<>res://.godot/imported/Axe.glb-de45b30d219d68162a817cf93b445fc0.scn::uid://8eg6ofu0i35q::::res://models/Axe_Diffuse_palette_2.jpg
 Axe_Diffuse_palette_2.jpg::CompressedTexture2D::2324909756632347148::1765362147::1765362148::1::::<><><>0<>0<>7d2c9a649b794b907052d8def5c8e711<>res://.godot/imported/Axe_Diffuse_palette_2.jpg-7ef075837dd0c3a409c0a06c2cb0cae0.s3tc.ctex::
@@ -21,10 +21,10 @@ tree.tres::StandardMaterial3D::1270359979994544402::1765360612::0::1::::<><><>0<
 TreeLeafsMaterial.tres::StandardMaterial3D::926955778146972176::1765359780::0::1::::<><><>0<>0<><>::uid://clmicfdjuv1ha::::res://models/leafs2.jpeg
 treeMesh.tres::MeshTexture::2275077268644209226::1765359780::0::1::::<><><>0<>0<><>::
 wood texture.png::CompressedTexture2D::6896876612543361369::1765360378::1765360387::1::::<><><>0<>0<>80b48c2f824b297f47508faf98ef5582<>res://.godot/imported/wood texture.png-0d2faca47e434fca844aba2419d34d51.s3tc.ctex::
-::res://scenes/::1765455410
+::res://scenes/::1765474996
 chest.tscn::PackedScene::5322811271281937580::1765435892::0::1::::<><><>0<>0<><>::uid://ceck4ajm1frnf::::res://models/chest_gold.glb
 tree.tscn::PackedScene::3214135188472560036::1765378471::0::1::::<><><>0<>0<><>::uid://nha3dendv3iy::::res://models/TreeLeafsMaterial.tres<>uid://sdmv4va8lc8a::::res://models/tree.tres
-tree_log.tscn::PackedScene::826841216721357504::1765455410::0::1::::<><><>0<>0<><>::uid://sdmv4va8lc8a::::res://models/tree.tres
+tree_log.tscn::PackedScene::826841216721357504::1765474996::0::1::::<><><>0<>0<><>::uid://sdmv4va8lc8a::::res://models/tree.tres
 ::res://scripts/::1765454192
 tree.gd::GDScript::3950485822499918677::1765454192::0::1::::<>Node3D<><>0<>0<><>::
 tree_log.gd::GDScript::2073477984513549611::1765454192::0::1::::<>RigidBody3D<><>0<>0<><>::
